@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteiner {
+    /* background-color: #000000; */
+    background-image: linear-gradient(to right, #1A2030, #31194B, #231479, #211D38);
+    width: 788px;
+    height: 200px;
+}
+.conteiner .conteudo .tag {
+    /* background-color: blue; */
+    width: 100%;
+    height: 68px;
+}
+.conteudo .tag h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: white;
+ 
+
+}
+.skills {
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 5px;
+    gap: 40px;
+    justify-content: end;
+    /* background-color: #191919; */
+    height: 85px;
+    width: 400px;
+    padding: 5px;
+    padding-right: 17px;
+    border-radius: 5px;
+    
+} 
+.skills .tech img {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+.tech.js img {
+    display: block;
+    margin: auto;
+}
+.skills .tech figcaption {
+    text-align: center;
+}
+
+figcaption, p {
+    color: white;
+}
+.github {
+    width: 100%;
+    height: 40px;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+.github p {
+    padding-right: 10px;
+}
+.github.logo {
+    display: flex;
+    align-items: center;
+    
+}
+.github.logo img {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+span {
+    color: #FF0157;
+}
+span .git {
+    font-size: 2em;
+}
+.conteiner {
+    margin-left: 40px;
+}

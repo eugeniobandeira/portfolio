@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    width: 94vw;
+    height: 100vh;
+}
+section {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+}
+h1:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #fed97542;
+}
+.soma {
+    line-height: 1.5em;
+}
