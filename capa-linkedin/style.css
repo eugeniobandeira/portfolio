@@ -33,13 +33,13 @@ body {
     display: flex;
     margin-left: 350px;
     margin-bottom: 5px;
-    gap: 40px;
+    gap: 30px;
     justify-content: end;
     /* background-color: #191919; */
     height: 85px;
     width: 400px;
     padding: 5px;
-    padding-right: 17px;
+    padding-right: 0px;
     border-radius: 5px;
     
 } 

@@ -1,0 +1,31 @@
+.banner__conteudo {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner__titulo {
+    box-sizing: border-box;
+    font-size: 4rem;
+    padding: 40px 0;
+}
+.banner__descricao {
+    font-size: 1.5rem
+}
+.banner__botao {
+    font-size: 1em;
+    color: #fff;
+    display: inline-block;
+    background-color: #ff0157;
+    padding: 10px 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    opacity: .7;
+}
+.banner__botao:hover {
+    letter-spacing: 2px;
+    opacity: 1;
+}
