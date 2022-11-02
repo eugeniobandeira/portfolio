@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Eugênio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="shortcut icon" href="/home/imagem-video/efavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="home/estilos/burguer.css">
     <link rel="stylesheet" href="home/estilos/home.css">
     <link rel="stylesheet" href="home/estilos/banner.css">
     <link rel="stylesheet" href="home/estilos/home/header.css">
     <link rel="stylesheet" href="home/estilos/home/menu.css">
-    <link rel="stylesheet" href="home/estilos/home/banner.css">
+    <link rel="stylesheet" href="home/estilos/home/sobre.css">
+    <link rel="stylesheet" href="home/estilos/estudo.css">
+    <link rel="stylesheet" href="home/estilos/home/estudo.css">
+
 </head>
 <body>
 
     <header class="header">
         <div class="header__box">
-            <h1 class="header__logo">EugB<span class="header__logo--destaque">.</span></h1>
-        </div>
-
-        <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link" href="#sobre">Sobre</a></li>
-                <li class="menu__item"><a class="menu__link" href="#estudo">Estudo</a></li>
-                <li class="menu__item"><a class="menu__link" href="#carreira">Carreira</a></li>
-                <li class="menu__item"><a class="menu__link" href="#dicas">Dicas de Estudo</a></li>
-                <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+            <div class="header__box--conteudo">
+                <h1 class="header__logo">EugB<span class="header__logo--destaque">.</span></h1>
+                <p class="header__logo--complemento">Web Developer</p>
+            </div>
+        
+        <!-- <div class="exibirMenu"></div> -->
+        
+            <nav class="menu" id="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="#sobre">Sobre</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#estudo">Estudo</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#carreira">Carreira</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#dicas">Dicas de Estudo</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        
+    </div>
     </header>
 
     <section id="banner" class="banner">
@@ -44,7 +55,7 @@
         <div class="sobre__perfil">
             <div class="sobre__perfil--box">
                 <div class="sobre__perfil--foto">
-                    <img style="width: 350px; height: 350px; background-color: rgba(211, 211, 211, 0.829); border-radius: 50%; border: 2px solid rgba(0, 119, 255, 0.726);" class="sobre__perfil--foto eugenio" src="home/imagem/principal/foto00.png" alt="Foto - Eugênio">
+                    <img class="sobre__perfil--foto eugenio" src="home/imagem/principal/foto00.png" alt="Foto - Eugênio">
                 </div>
                 <figcaption  class="sobre__perfil--legenda">Eugênio S Bandeira</figcaption>
             </div>
@@ -62,7 +73,7 @@
     <section id="estudo" class="estudo">
         <h2 class="estudo__titulo"><span class="estudo__titulo--destaque">E</span>studo</h2>
         <div class="estudo__box">
-            <p class="estudo__box--texto">
+            <p class="estudo__texto">
                 Eu não era o aluno de maior nota da turma, mas sempre me esforcei. &#x1F605 &#x1F605 &#x1F605 <br>
                 Então em 2015 (onde tudo começou a mudar), eu passei no processo seletivo do <abbr title="Serviço Nacional de Aprendizagem Industrial">SENAI</abbr>, iniciei o curso de Mecânica de Usinagem - aprendizagem industrial - e dois meses depois, eu já estava trabalhando (aprendiz) em uma empresa muuuuito grande.
                 <div class="estudo__box--senai">
@@ -75,10 +86,10 @@
         <p class="estudo__nota">
             <strong>Nota:</strong> eu tinha completado 15 anos um mês antes de começar a trabalhar. Eu não sabia fazer muita coisa, não conhecia o <q>negócio</q> da empresa. Mas tive o período de adaptação e depois fui me desenvolvendo e aprendendo muito com a ajuda da equipe.
         </p>
-        <p  class="estudo__box--texto">
+        <p  class="estudo__texto">
             Em 2017, terminei o curso do SENAI e também finalizei o ensino médio. Fiz o <abbr title="Exame Nacional do Ensino Médio">ENEM</abbr> mas não tirei uma nota muito boa para conseguir uma bolsa. Não fiquei desanimado por conta disso. Muito pelo contrário, segui estudando para me sair melhor na próxima oportunidade. Nesse sentido, em 2018 fiz o ENEM novamente, tirei uma nota muito melhor e consegui uma bolsa integral para cursar <strong><a class="link__externo" href="https://www.uninove.br/cursos/graduacao/presencial/tecnologia-em-comercio-exterior" target="_blank" rel="external">Comércio Exterior, na Universidade Nove de Julho (Uninove)</strong></a>.
         </p>
-        <p class="estudo__box--texto">
+        <p class="estudo__texto">
             O curso teve a duração de 2 anos, me formei em dez/2020. Naquele momento, pensei que queria continuar trabalhando na indústria de manufatura. Logo, iniciei o curso de <a class="link__externo" href="http://fateccotia.edu.br/graduacao/gestao-producao-industrial/" target="_blank" rel="external"><strong>Gestão da Produção Industrial, na FATEC Cotia</strong></a>. Onde fiquei até jul/2022.
         </p>
         <div class="estudo__formatura">
@@ -248,7 +259,7 @@
         </div>
     </section>
 
-    <section id="#dicas">
+    <section id="dicas">
         <h2 class="dicas__titulo"><span class="dicas__titulo--destaque">D</span>icas de Estudo</h2>
         <div class="estudo__box">
             <p class="estudo__box--descricao">Eu acredito que sempre devemos começar pela base e, nesse contexto, é muito importante iniciar os estudos em lógica de programação e depois ir avançando em outros conteúdos. O curso de lógica nos ensina como pensar e planejar o algoritmo que será desenvolvido. Além disso, depois que entendemos a maneira de pensar, aplicaremos isso em todas as outras linguagens. <br> Afinal, o que muda de uma linguagem para a outra é a sintaxe, a maneira como escrevemos. No entanto, a maneira de pensar será sempre muito semelhante.</p>
@@ -375,6 +386,14 @@
             const header = document.querySelector('header');
             header.classList.toggle('sticky', window.scrollY > 0);
         });
+
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        };
     </script>
 
 </body>

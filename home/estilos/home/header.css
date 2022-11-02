@@ -5,20 +5,30 @@
     width: 100%;
     padding: 0px 50px;
     z-index: 10000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 120px;
     transition: .5s;
-}
-.header__box {
-    width: 300px;
-    height: 100px;
 }
 .header__logo {
     font-size: 4rem;
 }
+.header__box {
+    max-width: 1000px;
+    height: 100px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header__logo--destaque {
     color: #ff0157;
+}
+.header__logo--complemento {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+.header__box--conteudo {
+    width: 300px;
 }
 .header.sticky {
     background-color: white;
@@ -60,3 +70,4 @@
     text-decoration: none;
     color: #ff0157;
 }
+

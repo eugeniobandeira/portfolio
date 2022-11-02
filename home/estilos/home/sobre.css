@@ -1,0 +1,28 @@
+.sobre__titulo {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.sobre__titulo--destaque {
+    color: #ff0157;
+}
+.sobre__descricao {
+    font-size: .9rem;
+}
+.sobre__perfil--box {
+    font-size: .8rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sobre__perfil--foto {
+    width: 150px; 
+    height: 150px;
+    /* width: 340px; 
+    height: 350px; */ 
+    background-color: rgba(211, 211, 211, 0.829); border-radius: 50%; 
+    border: 1px solid rgba(0, 119, 255, 0.726);
+    display: block;
+    margin: auto;
+}
+.sobre__biografia--texto {
+    font-size: .9rem;
+}

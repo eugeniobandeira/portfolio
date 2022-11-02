@@ -1,0 +1,32 @@
+.estudo__titulo {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.estudo__titulo--destaque {
+    color: #ff0157;
+}
+.estudo__texto {
+    font-size: .9rem;
+}
+.estudo__nota {
+    font-size: .7rem;    
+}
+.estudo__box--senai {
+    width: 50%;
+}
+
+
+.estudo__desenvolvimento--table {
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse; 
+}
+
+.table__data, .table__thead--th {
+    border: 2px solid black;
+    border-collapse: collapse;    
+}
+.table__data {
+    padding: 10px;
+}
