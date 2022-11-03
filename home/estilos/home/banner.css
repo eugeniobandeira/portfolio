@@ -1,3 +1,15 @@
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/home/imagem/background/bg-Dark3.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    color: #fff;
+}
 .banner__conteudo {
     max-width: 1000px;
     display: flex;
