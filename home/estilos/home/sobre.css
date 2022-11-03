@@ -1,18 +1,4 @@
-.sobre__titulo {
-    font-size: 2rem;
-    font-weight: bolder;
-}
-.sobre__titulo--destaque {
-    color: #ff0157;
-}
-.sobre__descricao {
-    font-size: .9rem;
-}
-.sobre__perfil--box {
-    font-size: .8rem;
-    text-align: center;
-    padding-bottom: 10px;
-}
+
 .sobre__perfil--foto {
     width: 150px; 
     height: 150px;
@@ -23,6 +9,4 @@
     display: block;
     margin: auto;
 }
-.sobre__biografia--texto {
-    font-size: .9rem;
-}
+
