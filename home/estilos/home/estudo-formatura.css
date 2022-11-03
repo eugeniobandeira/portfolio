@@ -3,13 +3,21 @@
     text-align: center;
 }
 .estudo__formatura--fotos {
-    background-color: aqua;
+    background-color: lightcoral;
 }
 .estudo__formatura--foto {
-    background-color: lightcoral;
+    
     width: 310px;
     height: 350px;
+    object-fit: fill;
     overflow: hidden;
+    padding: 5px;
+}
+.estudo__formatura--foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
 }
 
 #items-wrapper {

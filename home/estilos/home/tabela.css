@@ -1,0 +1,31 @@
+.estudo__desenvolvimento {
+    /* background-color: #2A2B32; */
+}
+.estudo__desenvolvimento--titulo {
+    /* color: #ff0157; */
+}
+.estudo__desenvolvimento--tecnologias_box {
+    /* background-color: #22232B; */
+}
+.estudo__desenvolvimento--table {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    border-collapse: collapse;
+}
+.table__thead--th, .table__data {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table__thead--th {
+    background-color: #ED145B;
+}
+.triade {
+    background-color: #ced4da;
+}
+.repositorio {
+    background-color: #adb5bd;   
+}
+.framework {
+    background-color: #6c757dc9;
+}
