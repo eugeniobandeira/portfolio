@@ -1,0 +1,24 @@
+.titulo__formatura {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.estudo__formatura--fotos {
+    background-color: aqua;
+}
+.estudo__formatura--foto {
+    background-color: lightcoral;
+    width: 310px;
+    height: 350px;
+    overflow: hidden;
+}
+
+#items-wrapper {
+    /* width: 100vw; */
+}
+#items {
+    display: flex;
+    overflow-x: auto;
+}
+.item {
+    flex: none;
+}
