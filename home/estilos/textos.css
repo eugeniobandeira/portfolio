@@ -6,15 +6,15 @@
     color: #ff0157;
 }
 .texto {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
 }
 .legenda, .nota {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 .h3, .h4 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
