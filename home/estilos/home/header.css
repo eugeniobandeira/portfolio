@@ -10,6 +10,7 @@
 }
 .header__logo {
     font-size: 4rem;
+    color: #fff;
 }
 .header__box {
     max-width: 1000px;
@@ -26,14 +27,23 @@
     font-size: 1rem;
     text-align: center;
     width: 100%;
+    color: #fff;
 }
 .header__box--conteudo {
     width: 300px;
 }
+.header.sticky .header__logo--complemento {
+    color: black;
+}
+.header.sticky .header__logo {
+    color: black;
+}
+
 .header.sticky {
     background-color: white;
     padding: 5px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.507);
+
 }
 .header.sticky .menu__link {
     color: black;

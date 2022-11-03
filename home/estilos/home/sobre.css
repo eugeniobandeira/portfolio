@@ -1,7 +1,7 @@
 
 .sobre__perfil--foto {
-    width: 150px; 
-    height: 150px;
+    width: 250px; 
+    height: 250px;
     /* width: 340px; 
     height: 350px; */ 
     background-color: rgba(211, 211, 211, 0.829); border-radius: 50%; 
@@ -9,4 +9,14 @@
     display: block;
     margin: auto;
 }
-
+.sobre__perfil--legenda  {
+    text-align: center;
+    padding: 10px;
+}
+.sobre__descricao {
+    padding-left: 24px;
+}
+.sobre__biografia--texto {
+    text-align: justify;
+    padding: 5px 24px;
+}

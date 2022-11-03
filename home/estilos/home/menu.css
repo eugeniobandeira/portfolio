@@ -6,10 +6,11 @@
     display: flex;
     list-style-type: none;
     margin-left: 300px;
+    
 }
 .menu__item {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     height: 100px;
 }
@@ -23,9 +24,11 @@
     font-weight: 400;
     font-size: 1rem;
     width: 150px;
+    font-weight: 700;
 }
 .menu__link:hover {
     text-decoration: underline;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 

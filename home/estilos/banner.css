@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: url('/home/imagem/tech/mac_bg.jpg'); */
-    background-color: lightgrey;
+    background: url('/home/imagem/background/bgDark3.jpg');
     background-size: cover;
+    background-position: bottom center;
+    color: #fff;
 }

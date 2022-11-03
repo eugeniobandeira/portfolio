@@ -1,0 +1,18 @@
+.estudo__texto {
+    text-align: justify;
+    padding: 5px 24px;
+}
+.estudo__nota {
+    margin: 5px 24px;
+    background-color: lightgray;
+}
+.estudo__box--senai .imagem {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
+}
+.estudo__box--senai .legenda {
+    text-align: center;
+    padding: 10px;
+}

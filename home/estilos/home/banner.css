@@ -28,4 +28,5 @@
 .banner__botao:hover {
     letter-spacing: 2px;
     opacity: 1;
+    font-size: 1.1em;
 }
