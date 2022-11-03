@@ -3,7 +3,7 @@
     text-align: center;
 }
 .estudo__formatura--fotos {
-    background-color: lightcoral;
+   /*  background-color: lightcoral; */
 }
 .estudo__formatura--foto {
     
@@ -21,7 +21,7 @@
 }
 
 #items-wrapper {
-    /* width: 100vw; */
+    margin-bottom: 10px;
 }
 #items {
     display: flex;

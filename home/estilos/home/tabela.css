@@ -5,7 +5,7 @@
     /* color: #ff0157; */
 }
 .estudo__desenvolvimento--tecnologias_box {
-    /* background-color: #22232B; */
+    margin: 15px 0 15px;
 }
 .estudo__desenvolvimento--table {
     max-width: 800px;
@@ -17,15 +17,25 @@
     border: 2px solid black;
     border-collapse: collapse;
 }
+.table__data {
+    padding: 5px;
+}
+.table__tbody--tr .nome {
+    text-align: center;
+}
+.table__tbody--tr .logo-linguagens {
+    width: 90%;
+    text-align: center;
+}
 .table__thead--th {
-    background-color: #ED145B;
+    background-color: #ff0157;
 }
 .triade {
-    background-color: #ced4da;
+    /* background-color: #ced4da; */
 }
 .repositorio {
-    background-color: #adb5bd;   
+    /* background-color: #adb5bd;  */  
 }
 .framework {
-    background-color: #6c757dc9;
+    /* background-color: #6c757dc9; */
 }
