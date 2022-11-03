@@ -1,33 +1,29 @@
 .header {
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
     padding: 0px 50px;
     z-index: 10000;
-    height: 120px;
     transition: .5s;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+    
 }
 .header__logo {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
 }
 .header__box {
     max-width: 1000px;
-    height: 100px;
-    display: flex;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .header__logo--destaque {
     color: #ff0157;
-}
-.header__logo--complemento {
-    font-size: 1rem;
-    text-align: center;
-    width: 100%;
-    color: #fff;
 }
 .header__box--conteudo {
     width: 300px;
@@ -43,7 +39,9 @@
     background-color: white;
     padding: 5px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.507);
-
+    height: 70px;
+    margin-top: 0;
+    transition: .5s;
 }
 .header.sticky .menu__link {
     color: black;

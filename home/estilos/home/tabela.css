@@ -20,12 +20,11 @@
 .table__data {
     padding: 5px;
 }
-.table__tbody--tr .nome {
+.table__tbody--tr .nome, .table__thead--th {
     text-align: center;
 }
 .table__tbody--tr .logo-linguagens {
-    width: 90%;
-    text-align: center;
+    text-align: left;
 }
 .table__thead--th {
     background-color: #ff0157;

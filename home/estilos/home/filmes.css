@@ -1,0 +1,7 @@
+.filmes__card {
+    max-width: 380px;
+    overflow: hidden;
+}
+.filmes__card img {
+    width: 100%;
+}
