@@ -64,4 +64,8 @@ body {
 }
 .dicas__filmes {
     background-color: rosybrown;
+    overflow: hidden;
+}
+.filmes__conteiner {
+    background-color: rgb(71, 255, 46);
 }
