@@ -1,18 +1,15 @@
-.estudo__desenvolvimento {
-    /* background-color: #2A2B32; */
-}
-.estudo__desenvolvimento--titulo {
-    /* color: #ff0157; */
+.estudo__desenvolvimento--tecnologias_conteudo {
+    background-color: aquamarine;
 }
 .estudo__desenvolvimento--tecnologias_box {
     margin: 15px 0 15px;
     width: 100%;
+    background-color: blue;
+
 }
-.logo-linguagens {
-    height: 80%;
-}
+
 .estudo__desenvolvimento--table {
-    width: 80vw;
+    width: 1018px;
     display: block;
     margin: auto;
     border-collapse: collapse;
@@ -46,8 +43,3 @@
     /* background-color: #6c757dc9; */
 }
 
-@media screen and (min-width: 500px) {
-    .estudo__desenvolvimento--table {
-        width: 90vw;
-    }
-}
