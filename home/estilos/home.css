@@ -17,9 +17,51 @@ body {
 .estudo {
     background-color: blue;
 }
-.dicas {
+#dicas {
     background-color: lawngreen;
 }
 .contato {
     background-color: gray;
+}
+.header__box--conteudo {
+    background-color: purple;
+}
+.header {
+    background-color: brown;
+}
+.header__box {
+    background-color: chocolate;
+}
+.menu {
+    background-color: cadetblue;
+}
+.banner__conteudo {
+    background-color: darkblue;
+}
+.sobre__biografia {
+    background-color: orange;
+}
+.header.sticky {
+    background-color: lightslategray;
+}
+.estudo__box {
+    background-color: green;
+}
+.estudo__formatura {
+    background-color: goldenrod;
+}
+.estudo__desenvolvimento {
+    background-color: palevioletred;
+}
+.estudo__desenvolvimento--table {
+    background-color: gray;
+}
+.carreira__conteiner {
+    background-color: yellow;
+}
+.estudo__box {
+    background-color: mediumpurple;
+}
+.dicas__filmes {
+    background-color: rosybrown;
 }
