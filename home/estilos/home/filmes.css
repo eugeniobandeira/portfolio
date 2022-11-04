@@ -1,6 +1,6 @@
 .filme__card--img {
-    width: 380px;
-    height: 260px;
+    width: 370px;
+    height: 250px;
     overflow: hidden;
 }
 .filmes__card img {
@@ -10,7 +10,9 @@
 .filmes__conteiner {
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 .filmes__card {
-    padding: 10px 24px;
+    padding: 10px 24px;  
 }
