@@ -5,7 +5,7 @@
 .menu__lista {
     display: flex;
     list-style-type: none;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     
 }
 .menu__item {

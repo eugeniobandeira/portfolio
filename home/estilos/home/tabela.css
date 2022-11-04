@@ -8,10 +8,11 @@
     margin: 15px 0 15px;
 }
 .estudo__desenvolvimento--table {
-    max-width: 80vw;
+    width: 80vw;
     display: block;
     margin: auto;
     border-collapse: collapse;
+
 }
 .table__thead--th, .table__data {
     border: 2px solid black;
@@ -37,4 +38,10 @@
 }
 .framework {
     /* background-color: #6c757dc9; */
+}
+
+@media screen and (max-width: 500px) {
+    .estudo__desenvolvimento--table {
+        width: 90vw;
+    }
 }

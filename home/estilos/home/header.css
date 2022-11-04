@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin-top: 20px;
 
-    
+    overflow: hidden;
 }
 .header__logo {
     font-size: 3rem;
@@ -60,7 +60,7 @@
 .menu__lista {
     display: flex;
     list-style-type: none;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     
 }
 .menu__item {

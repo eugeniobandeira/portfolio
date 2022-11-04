@@ -16,6 +16,7 @@
     margin-top: 50px;
     margin-left: 50px;
     border-radius:  0 0 30px 30px;
+
 }
 .contactForm .inputBox {
     position: relative;
@@ -50,4 +51,12 @@
 .contactForm .inputBox input[type='submit']:hover {
     letter-spacing: 5px;
     
+}
+
+@media screen and (max-width: 500px) {
+    .contactForm {
+        margin: auto;
+        width: 70vw;
+        height: 55vh;
+    }
 }

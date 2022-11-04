@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .titulo {
     font-size: 3rem;
     font-weight: bolder;
