@@ -6,12 +6,18 @@
 }
 .estudo__desenvolvimento--tecnologias_box {
     margin: 15px 0 15px;
+    width: 100%;
+}
+.logo-linguagens {
+    height: 80%;
 }
 .estudo__desenvolvimento--table {
     width: 80vw;
     display: block;
     margin: auto;
     border-collapse: collapse;
+    background-color: rgb(231, 222, 222);
+    
 
 }
 .table__thead--th, .table__data {
