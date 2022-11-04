@@ -1,5 +1,9 @@
 .estudo__desenvolvimento--tecnologias_conteudo {
     background-color: rgb(212, 209, 26);
+    max-width: 70vw;
+    display: block;
+    margin: auto;
+    
 }
 .estudo__desenvolvimento--tecnologias_box {
     margin: 15px 0 15px;
@@ -9,9 +13,8 @@
 }
 
 .estudo__desenvolvimento--table {
-    max-width: 70vw;
-    display: block;
-    margin: auto;
+    
+    
     border-collapse: collapse;
     background-color: rgb(231, 222, 222);
     
