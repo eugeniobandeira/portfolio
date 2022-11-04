@@ -1,11 +1,16 @@
-.filmes__card {
-    max-width: 380px;
+.filme__card--img {
+    width: 380px;
+    height: 260px;
     overflow: hidden;
 }
 .filmes__card img {
     width: 100%;
+    height: 100%;
 }
 .filmes__conteiner {
     display: flex;
     flex-wrap: wrap;
+}
+.filmes__card {
+    padding: 10px;
 }
