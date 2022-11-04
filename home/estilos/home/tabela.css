@@ -1,24 +1,8 @@
-.estudo__desenvolvimento--tecnologias_conteudo {
-    background-color: rgb(212, 209, 26);
-    max-width: 70vw;
-    display: block;
-    margin: auto;
-    
-}
-.estudo__desenvolvimento--tecnologias_box {
-    margin: 15px 0 15px;
-    width: 100%;
-    background-color: blue;
 
-}
-
-.estudo__desenvolvimento--table {
-    
-    
+.estudo__table {
     border-collapse: collapse;
-    background-color: rgb(231, 222, 222);
+    width: 80vw;
     
-
 }
 .table__thead--th, .table__data {
     border: 2px solid black;
@@ -36,13 +20,7 @@
 .table__thead--th {
     background-color: #ff0157;
 }
-.triade {
-    /* background-color: #ced4da; */
-}
-.repositorio {
-    /* background-color: #adb5bd;  */  
-}
-.framework {
-    /* background-color: #6c757dc9; */
+.estudo__conteiner--tabela {
+    padding: 10px 24px;
 }
 

@@ -17,7 +17,7 @@
 }
 .header__box {
     max-width: 1000px;
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +33,7 @@
 }
 .header.sticky .header__logo {
     color: black;
+    font-size: 2rem;
 }
 
 .header.sticky {
