@@ -65,7 +65,7 @@
     transition-delay: .3s;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
     .filmes__conteiner .filmes__card .filme__card--img {
         width: 250px;
         height: 175px;

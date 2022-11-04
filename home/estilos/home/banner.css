@@ -8,8 +8,7 @@
 }
 .banner__titulo {
     box-sizing: border-box;
-    font-size: 4rem;
-    padding: 40px 0;
+    
 }
 .banner__descricao {
     font-size: 1.5rem
@@ -33,11 +32,18 @@
     font-size: 1.1em;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (mix-width: 400px) {
     .banner__conteudo .banner__titulo {
         font-size: 2rem;
         padding: 0;
         margin-bottom: 60px;
+    };
+    
+}
+@media screen and (min-width: 600px) {
+    .banner__conteudo .banner__titulo {
+        font-size: 4rem;
+        padding: 40px 0;
     };
     
 }

@@ -27,7 +27,7 @@
     background-color: #ff0157;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
     .logo-linguagens {
         height: 30px;   
     }

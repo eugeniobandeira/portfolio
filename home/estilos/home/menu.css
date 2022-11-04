@@ -31,7 +31,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
     .menu {
         display: none;
     }
