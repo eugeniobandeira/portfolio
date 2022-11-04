@@ -53,10 +53,11 @@
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
     .contactForm {
         margin: auto;
         width: 70vw;
         height: 55vh;
+        margin-top: 30px;
     }
 }

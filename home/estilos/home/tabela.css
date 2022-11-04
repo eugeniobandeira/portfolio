@@ -40,7 +40,7 @@
     /* background-color: #6c757dc9; */
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
     .estudo__desenvolvimento--table {
         width: 90vw;
     }
