@@ -1,4 +1,53 @@
-.contato {
-    height: 100vh;
-    background-image: url('/bg-contato.jpg');
+.titleText {
+    color: #fff;
+}
+.title p {
+    color: #fff;
+    text-align: center;
+}
+.contactForm h3 {
+    color: black;
+}
+.contactForm {
+    padding: 30px 30px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.096);
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius:  0 0 30px 30px;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline-color: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+    border-radius: 5px;
+}
+.contactForm .inputBox input[type='submit'] {
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.contactForm .inputBox input[type='submit']:hover {
+    letter-spacing: 5px;
+    
 }
