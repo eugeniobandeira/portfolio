@@ -12,7 +12,7 @@
 }
 .contato {
     height: 100vh;
-    background-image: url('/bg-contato.jpg');
+    background-image: url('bg-contato.jpg');
     background-size: cover;
     background-position: right bottom;
 }
