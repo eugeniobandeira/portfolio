@@ -5,7 +5,6 @@
 .menu__lista {
     display: flex;
     list-style-type: none;
-    /* margin-left: 300px; */
     
 }
 .menu__item {
@@ -32,3 +31,8 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 400px) {
+    .menu {
+        display: none;
+    }
+}

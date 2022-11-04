@@ -25,7 +25,7 @@
     max-width: 350px;
     height: 250px;
     background-color: #fff;
-    margin: 30px 30px;
+    margin: 30px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
@@ -63,4 +63,18 @@
     opacity: 1;
     margin-top: -40px;
     transition-delay: .3s;
+}
+
+@media screen and (max-width: 400px) {
+    .filmes__conteiner .filmes__card .filme__card--img {
+        width: 250px;
+        height: 175px;
+    };
+    .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
+        height: 300px;
+    };
+    .filmes__conteiner .filmes__card {
+        margin: 10px;
+        padding: 0; 
+    }
 }

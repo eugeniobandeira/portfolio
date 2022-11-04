@@ -1,7 +1,12 @@
-
+.estudo__conteiner--tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .estudo__table {
     border-collapse: collapse;
-    width: 80vw;
+    margin: 0;
+    padding: 0;
     
 }
 .table__thead--th, .table__data {
@@ -16,11 +21,17 @@
 }
 .table__tbody--tr .logo-linguagens {
     text-align: left;
+    height: 60px;
 }
 .table__thead--th {
     background-color: #ff0157;
 }
-.estudo__conteiner--tabela {
-    padding: 10px 24px;
-}
 
+@media screen and (max-width: 400px) {
+    .logo-linguagens {
+        height: 30px;   
+    }
+    .estudo__table {
+        width: 300px;
+    }
+}
