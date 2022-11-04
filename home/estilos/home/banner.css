@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/dark-banner.jpeg');
+    background: url('/a.jpeg');
+    background-color: black;
     background-size: cover;
     background-position: bottom center;
     color: #fff;

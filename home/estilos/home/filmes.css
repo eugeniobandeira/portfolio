@@ -5,3 +5,7 @@
 .filmes__card img {
     width: 100%;
 }
+.filmes__conteiner {
+    display: flex;
+    flex-wrap: wrap;
+}
