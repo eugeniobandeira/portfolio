@@ -1,4 +1,7 @@
 
+.carreira__descricao {
+    padding: 5px 24px;
+}
 .carreira__box--imgLogos {
     width: 200px;
     max-height: 100px;
@@ -151,9 +154,10 @@
     .carreira__timeline--conteiner .carreira__lista 
     .carreira__lista--item:nth-child(even) {
         width: 100%;
-        text-align: left;
-        padding: 0 0 50px 50px;
+        text-align: justify;
+        padding: 0 24px 50px 50px;
     }
+
     .carreira__timeline--conteiner .carreira__lista 
     .carreira__lista--item:nth-child(odd):before, 
     .carreira__timeline--conteiner .carreira__lista 
@@ -175,5 +179,8 @@
     }
     .carreira__lista--conteudo {
         margin-top: 20px;
+    }
+    .carreira__timeline--conteiner:before {
+        height: 92%;
     }
 }
