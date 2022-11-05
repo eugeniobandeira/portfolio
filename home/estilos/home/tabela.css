@@ -27,11 +27,17 @@
     background-color: #ff0157;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 350px) {
     .logo-linguagens {
         height: 30px;   
     }
     .estudo__table {
-        width: 300px;
+        width: 85vw;
     }
+}
+@media screen and (min-width: 700px) {
+    .estudo__table {
+        width: auto;
+    }
+    
 }

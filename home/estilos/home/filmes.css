@@ -32,9 +32,7 @@
     box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.521);
     transition: .3s ease-in-out;
 }
-.filmes__conteiner .filmes__card:hover {
-    height: 575px;
-}
+
 .filmes__conteiner .filmes__card .filme__card--img {
     position: relative;
     width: 350px;
@@ -65,16 +63,40 @@
     transition-delay: .3s;
 }
 
-@media screen and (min-width: 400px) {
-    .filmes__conteiner .filmes__card .filme__card--img {
-        width: 250px;
-        height: 175px;
-    };
-    .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
-        height: 300px;
-    };
+@media screen and (min-width: 350px) {
     .filmes__conteiner .filmes__card {
-        margin: 10px;
-        padding: 0; 
+        height: 125px;
+    }
+    .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
+        /* width: 300px; */
+        height: 100%;
+        width: 240px;
+    }
+    .filmes__conteiner .filmes__card .filme__card--img {
+        width: 240px;
+        height: 125px;
+    }
+    .filmes__conteiner .filmes__card:hover {
+        height: 470px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .filmes__conteiner .filmes__card {
+        position: relative;
+        max-width: 350px;
+        height: 250px;
+    }
+    .filmes__conteiner .filmes__card .filme__card--img {
+        width: 350px;
+        height: 250px;
+        top: -60px;
+        left: 20px;
+    }
+    .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
+        width: 100%;
+        height: 250px;
+    }
+    .filmes__conteiner .filmes__card:hover {
+        height: 575px;
     }
 }

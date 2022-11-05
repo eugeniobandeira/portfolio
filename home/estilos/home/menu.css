@@ -3,7 +3,7 @@
      
 }
 .menu__lista {
-    display: flex;
+    
     list-style-type: none;
     
 }
@@ -31,8 +31,13 @@
     font-weight: bold;
 }
 
-@media screen and (min-width: 400px) {
-    .menu {
+@media screen and (min-width: 350px) {
+    .menu__lista {
         display: none;
+    }
+}
+@media screen and (min-width: 700px) {
+    .menu__lista {
+        display: flex;
     }
 }

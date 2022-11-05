@@ -10,10 +10,7 @@
     box-sizing: border-box;
     
 }
-.banner__descricao {
-    font-size: 1.5rem
-  
-}
+
 .banner__botao {
     font-size: 1em;
     color: #fff;
@@ -32,18 +29,20 @@
     font-size: 1.1em;
 }
 
-@media screen and (mix-width: 400px) {
+@media screen and (min-width: 350px) {
     .banner__conteudo .banner__titulo {
         font-size: 2rem;
         padding: 0;
         margin-bottom: 60px;
-    };
+    }
     
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .banner__conteudo .banner__titulo {
         font-size: 4rem;
-        padding: 40px 0;
-    };
-    
+        padding-top: 40px;
+    }
+    .banner__descricao {
+        font-size: 1.5rem;
+    }
 }
