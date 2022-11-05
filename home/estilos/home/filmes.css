@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #16384c;
+    background-image: linear-gradient(to right, #1A2030, #31194B, #231479, #211D38);
 }
 .filmes__conteiner {
     position: relative;
@@ -73,7 +73,7 @@
         width: 270px;
     }
     .filmes__conteiner .filmes__card .filme__card--img {
-        width: 270px;
+        width: 240px;
         height: 125px;
     }
     .filmes__conteiner .filmes__card:hover {
