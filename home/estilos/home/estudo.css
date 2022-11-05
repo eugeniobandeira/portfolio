@@ -24,3 +24,19 @@
     text-align: center;
     padding: 10px;
 }
+
+@media screen and (min-width: 350px) {
+    
+    .estudo__box--senai {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .picture {
+        width: 70vw;
+    }
+    .imagem {
+        width: 100%;
+    }
+}

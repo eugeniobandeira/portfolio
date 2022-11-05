@@ -13,7 +13,7 @@
 
 .banner__botao {
    /*  font-size: 1em; */
-    color: #fff;
+   
     display: inline-block;
     background-color: #ff0157;
     /* padding: 10px 30px;
@@ -21,13 +21,18 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: .5s;
-}
-.banner__botao:hover {
-    letter-spacing: 2px;
     background-color: transparent;
     color: #ff0157;
     border: 2px solid #ff0157;
+    letter-spacing: 2px;
+}
+.banner__botao:hover {
+    /* background-color: transparent;
+    color: #ff0157;
+    border: 2px solid #ff0157; */
     font-weight: 500;
+    color: #fff;
+    background-color: #ff0157;
 }
 
 /* @media screen and (min-width: 350px) {

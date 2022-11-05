@@ -35,3 +35,9 @@
     padding-left: 24px;
     list-style-type: none;
 }
+
+@media screen and (min-width: 350px) {
+    .titulo {
+        font-size: 1.5rem;   
+    }
+}

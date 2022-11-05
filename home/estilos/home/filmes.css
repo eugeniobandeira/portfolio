@@ -76,10 +76,10 @@
     .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
         /* width: 300px; */
         height: 100%;
-        width: 250px;
+        width: 270px;
     }
     .filmes__conteiner .filmes__card .filme__card--img {
-        width: 230px;
+        width: 250px;
         height: 125px;
         left: 40px;
     }

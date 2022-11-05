@@ -1,5 +1,6 @@
 .titleText {
     color: #fff;
+    margin-top: 20px;
 }
 .title p {
     color: #fff;
@@ -54,13 +55,18 @@
 }
 
 @media screen and (min-width: 350px) {
-    .contactForm {
-        max-width: 200px;
-        padding: 10px;
+    .contato {
         display: flex;
-        align-items: center;
         justify-content: center;
-        margin-right: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contactForm {
+        width: 70vw;
+        margin: 0;
+    }
+    .contato__descricao {
+        margin-bottom: 30px;
     }
 }
 
