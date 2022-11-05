@@ -3,13 +3,18 @@
     height: 250px;
     overflow: hidden;
 } */
+.dicas__filmes {
+    background-image: linear-gradient(90deg, #4361EE, #3A0CA3, #7209B7, #6f25f7);
+}
 
-
+.filmes_h3, .filmes_texto {
+    color: #fff;
+}
 .filmes__box--pai {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(45deg, #4361EE, #3A0CA3, #7209B7, #6f25f7);
+    
 }
 .filmes__conteiner {
     position: relative;
@@ -71,7 +76,7 @@
 
 @media screen and (min-width: 350px) {
     .filmes__conteiner .filmes__card {
-        height: 125px;
+        height: 150px;
     }
     .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
         /* width: 300px; */
@@ -80,16 +85,19 @@
     }
     .filmes__conteiner .filmes__card .filme__card--img {
         width: 250px;
-        height: 125px;
+        height: 140px;
         left: 40px;
     }
     .filmes__conteiner .filmes__card:hover {
-        height: 490px;
+        height: 450px;
     }
    /*  .filmes__conteiner .filmes__card .jogoDaImitacao:hover {
         height: 100px;
         background-color: aqua;
     } */
+    .filmes__conteiner .filmes__card .filmes__card--intro .filme__descricao {
+        text-align: center;
+    }
 }
 @media screen and (min-width: 700px) {
     .filmes__conteiner .filmes__card {
@@ -108,6 +116,6 @@
         height: 250px;
     }
     .filmes__conteiner .filmes__card:hover {
-        height: 575px;
+        height: 540px;
     }
 }
