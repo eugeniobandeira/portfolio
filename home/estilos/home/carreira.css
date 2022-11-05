@@ -1,16 +1,113 @@
-.carreira__cargo, .carreira__cargo--periodo, .carreira__logo--empresa {
+/* .carreira__cargo, .carreira__cargo--periodo, .carreira__logo--empresa {
     padding-left: 24px;
-}
+} */
 .carreira__box--imgLogos {
     width: 200px;
     max-height: 100px;
-    /* background-color: aqua; */
     
 }
 .carreira__logo--empresa {
     width: 100%;
     max-height: 50px;
 }
-.carreira__cargo--descricao {
+/* .carreira__cargo--descricao {
     text-align: justify;
+} */
+.carreira__timeline--conteiner {
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1200px;
+}
+.carreira__timeline--conteiner:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #c5c5c5;
+
+}
+.carreira__timeline--conteiner .carreira__lista {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item {
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+}
+.carreira__lista--conteudo {
+    padding-bottom: 20px;
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(233,33,99,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233,33,99,.2);
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item:nth-child(even):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(233,33,99,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233,33,99,.2);
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item .carreira__cargo {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgba(233,33,99,1);
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item .carreira__cargo--descricao {
+    margin: 10px 0 0;
+    padding: 0;
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item .carreira__cargo--tempo {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item:nth-child(odd) .carreira__cargo--tempo {
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 4px 16px;
+    background-color: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 2px rgba(233,33,99,0.3);
+}
+.carreira__timeline--conteiner .carreira__lista .carreira__lista--item:nth-child(even) .carreira__cargo--tempo {
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 4px 16px;
+    background-color: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 2px rgba(233,33,99,0.3);
 }

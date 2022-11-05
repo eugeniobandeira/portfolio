@@ -21,12 +21,13 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: .5s;
-    opacity: .7;
 }
 .banner__botao:hover {
     letter-spacing: 2px;
-    opacity: 1;
-    font-size: 1.1em;
+    background-color: transparent;
+    color: #ff0157;
+    border: 2px solid #ff0157;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 350px) {
