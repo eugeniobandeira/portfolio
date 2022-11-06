@@ -42,7 +42,7 @@
     }
     .header .menu .menu__lista .menu__item .menu__link {
         counter-reset: #111;
-        font-size: 1.6em;
+        font-size: 1.4em;
         font-weight: 300;
     }
     .menuToggle {
@@ -51,7 +51,7 @@
         height: 40px;
         /* background-color: aqua; */
         background-image: url('/menu.svg');
-        background-size: 30px;
+        /* background-size: 30px; */
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
@@ -64,7 +64,7 @@
         background-position: center;   
     }
     .header.sticky .menuToggle {
-        filter: invert(1);
+        /* filter: invert(1); */
     }
     .menu__lista {
         gap: 0px;
