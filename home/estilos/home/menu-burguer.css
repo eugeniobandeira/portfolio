@@ -49,8 +49,8 @@
         position: relative;
         width: 40px;
         height: 40px;
-        /* background-color: aqua; */
-        background-image: url('menu.svg');
+        background-color: aqua;
+        /* background-image: url('menu.svg'); */
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -58,7 +58,7 @@
         
     }
     .menuToggle.active {
-        background-image: url('close.svg');
+        background-color: yellowgreen;
         background-repeat: no-repeat;
         background-position: center;   
     }
