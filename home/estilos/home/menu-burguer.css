@@ -30,7 +30,7 @@
     }
     .header .menu__lista.active {
         width: 100%;
-        height: calc(100% - 200px);
+        height: calc(100% - 300px);
         position: fixed;
         top: 70px;
         left: 0;
@@ -49,8 +49,8 @@
         position: relative;
         width: 40px;
         height: 40px;
-        background-color: aqua;
-        /* background-image: url('menu.svg'); */
+        /* background-color: aqua; */
+        background-image: url('/menu.svg');
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -58,7 +58,8 @@
         
     }
     .menuToggle.active {
-        background-color: yellowgreen;
+        /* background-color: yellowgreen; */
+        background-image: url('/close.svg');
         background-repeat: no-repeat;
         background-position: center;   
     }
