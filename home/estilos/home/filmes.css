@@ -3,8 +3,8 @@
     height: 250px;
     overflow: hidden;
 } */
-.dicas__filmes {
-    background-image: linear-gradient(90deg, #4361EE, #3A0CA3, #7209B7, #6f25f7);
+.filmes__box--pai {
+    background-color: #eee;
 }
 
 .filmes_h3, .filmes_texto {
@@ -77,11 +77,14 @@
 @media screen and (min-width: 350px) {
     .filmes__conteiner .filmes__card {
         height: 150px;
+        margin: 0;
     }
     .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
         /* width: 300px; */
         height: 100%;
         width: 270px;
+        position: relative;
+        left: -10px;
     }
     .filmes__conteiner .filmes__card .filme__card--img {
         width: 250px;
@@ -104,6 +107,7 @@
         position: relative;
         max-width: 350px;
         height: 250px;
+        margin: 30px;
     }
     .filmes__conteiner .filmes__card .filme__card--img {
         width: 350px;
