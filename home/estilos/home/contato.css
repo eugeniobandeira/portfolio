@@ -74,8 +74,14 @@
 footer {
     background-color: #202425;
     color: #fff;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 30px 0;
+}
+footer ul {
+    color: transparent;
 }
 footer a {
     text-decoration: none;
@@ -85,4 +91,9 @@ footer a {
 footer a:hover {
     color: #ff0157;
     text-decoration: underline;
+}
+.svg {
+    width: 35px;
+    height: 35px;
+    color: white;
 }
