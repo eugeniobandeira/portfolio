@@ -83,13 +83,14 @@
         /* width: 300px; */
         height: 100%;
         width: 270px;
-        position: relative;
-        left: -10px;
+        
+        
     }
     .filmes__conteiner .filmes__card .filme__card--img {
         width: 250px;
         height: 140px;
-        left: 40px;
+        /* left: 40px; */
+        left: 0;
     }
     .filmes__conteiner .filmes__card:hover {
         height: 450px;
