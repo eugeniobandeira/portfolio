@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin-top: 20px;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .header__logo {
     font-size: 3rem;
@@ -55,7 +55,7 @@
 
 
 
-.menu {
+/* .menu {
     width: 1100px;   
 }
 .menu__lista {
@@ -63,7 +63,7 @@
     list-style-type: none;
     /* margin-left: 300px; */
     
-}
+/* }
 .menu__item {
     display: flex;
     justify-content: flex-end;
@@ -78,5 +78,5 @@
 .menu__link {
     text-decoration: none;
     color: #ff0157;
-}
+} */ 
 

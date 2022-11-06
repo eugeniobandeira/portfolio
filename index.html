@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Eugênio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/home/imagem-video/efavicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="home/estilos/home.css">
     <link rel="stylesheet" href="home/estilos/banner.css">
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="home/estilos/home/filmes.css">
     <link rel="stylesheet" href="home/estilos/home/carreira.css">
     <link rel="stylesheet" href="home/estilos/home/contato.css">
+    <link rel="stylesheet" href="home/estilos/home/menu-burguer.css">
 
 
     <link rel="stylesheet" href="bg.css">
@@ -49,6 +50,7 @@
             </nav>
         
     </div>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
     </header>
 
     <section id="banner" class="banner">
@@ -400,12 +402,27 @@
         });
 
         function clickMenu() {
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none';
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none';
             } else {
-                menu.style.display = 'block';
+                nav.style.display = 'block';
             }
-        };
+        }
+
+        function tamanhoTela() {
+            if(window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
     </script>
 
 </body>

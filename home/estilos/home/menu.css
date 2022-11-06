@@ -1,4 +1,9 @@
-.menu {
+/* .menu {
+    display: flex;
+}
+ */
+
+/* .menu {
     width: 1100px; 
      
 }
@@ -21,7 +26,7 @@
     text-decoration: none;
     color: #ff0157;
     /* font-weight: 400; */
-    font-size: 1rem;
+/*     font-size: 1rem;
     width: 150px;
     font-weight: 700;
 }
@@ -32,12 +37,12 @@
 }
 
 @media screen and (min-width: 350px) {
-    .menu__lista {
+    /* .menu__lista {
         display: none;
-    }
-}
+/*     } */
+/* }
 @media screen and (min-width: 700px) {
     .menu__lista {
         display: flex;
     }
-}
+} */ 
