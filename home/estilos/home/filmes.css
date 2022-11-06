@@ -7,9 +7,6 @@
     background-color: #eee;
 }
 
-.filmes_h3, .filmes_texto {
-    color: #fff;
-}
 .filmes__box--pai {
     display: flex;
     justify-content: center;

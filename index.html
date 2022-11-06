@@ -370,16 +370,27 @@
             <p class="contato__descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <div class="contactForm">
-            <form class="formulario" action="form.php" method="post">
+            <form class="formulario" action="form.php" method="post" id="formulario-php">
                 <h3>Enviar Mensagem</h3>
                 <div class="inputBox">
-                    <input type="text" placeholder="Nome">
+                    <input 
+                    type="text" 
+                    id="f_nome" 
+                    name="f_nome" 
+                    placeholder="Nome">
                 </div>
                 <div class="inputBox">
-                    <input type="text" placeholder="E-mail">
+                    <input 
+                    type="text"
+                    id="f_email" 
+                    name="f_email"
+                    placeholder="E-mail">
                 </div>
                 <div class="inputBox">
-                    <textarea placeholder="Feedback"></textarea>
+                    <textarea 
+                    name="f_feedback" 
+                    id="f_feedback" 
+                    placeholder="Feedback"></textarea>
                 </div>
                 <div class="inputBox">
                     <input type="submit" value="Enviar">

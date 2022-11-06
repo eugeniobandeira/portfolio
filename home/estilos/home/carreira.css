@@ -15,7 +15,7 @@
 .carreira__timeline--conteiner {
     position: relative;
     /* margin: 0px auto; */
-    padding: 40px 0;
+    padding: 20px 0 0 0;
     width: 1200px;
 }
 .carreira__timeline--conteiner:before {
@@ -26,6 +26,12 @@
     height: 93%;
     background-color: #c5c5c5;
 
+}
+
+.carreira__lista 
+.carreira__lista--item:last-child {
+    padding-bottom: 0;
+    background-color: aqua;
 }
 .carreira__timeline--conteiner 
 .carreira__lista {
