@@ -6,7 +6,18 @@
 .menu__link {
     text-decoration: none;
 }
-
+.menu__link {
+    text-decoration: none;
+    color: #ff0157;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 150px;
+    font-weight: 700;
+}
+.menu__link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 
 
@@ -19,7 +30,7 @@
     }
     .header .menu__lista.active {
         width: 100%;
-        height: calc(100% - 60px);
+        height: calc(100% - 90px);
         position: fixed;
         top: 70px;
         left: 0;
@@ -39,7 +50,7 @@
         width: 40px;
         height: 40px;
         /* background-color: aqua; */
-        background-image: url('/menu.svg');
+        background-image: url('menu.svg');
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -47,7 +58,7 @@
         
     }
     .menuToggle.active {
-        background-image: url('/close.svg');
+        background-image: url('close.svg');
         background-repeat: no-repeat;
         background-position: center;   
     }
@@ -56,5 +67,8 @@
     }
     .menu__lista {
         gap: 0px;
+    }
+    .menu__link:hover {
+        color: #ff0157;
     }
 }
