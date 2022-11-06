@@ -1,3 +1,15 @@
+.menu__lista {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+.menu__link {
+    text-decoration: none;
+}
+
+
+
+
 @media (max-width: 990px) {
     .header.sticky {
         padding: 10px 20px;
@@ -26,7 +38,7 @@
         position: relative;
         width: 40px;
         height: 40px;
-        background-color: aqua;
+        /* background-color: aqua; */
         background-image: url('/menu.svg');
         background-size: 30px;
         background-repeat: no-repeat;
@@ -41,5 +53,8 @@
     }
     .header.sticky .menuToggle {
         filter: invert(1);
+    }
+    .menu__lista {
+        gap: 0px;
     }
 }
