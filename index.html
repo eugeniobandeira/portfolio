@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,11 +34,8 @@
         <div class="header__box">
             <div class="header__box--conteudo">
                 <h1 class="header__logo">EugB<span class="header__logo--destaque">.</span></h1>
-                <!-- <p class="header__logo--complemento">Web Developer</p> -->
             </div>
-        
-        <!-- <div class="exibirMenu"></div> -->
-        
+            <div class="menuToggle" onclick="toggleMenu()"></div>    
             <nav class="menu" id="menu">
                 <ul class="menu__lista">
                     <li class="menu__item"><a class="menu__link" href="#sobre">Sobre</a></li>
@@ -50,7 +47,6 @@
             </nav>
         
     </div>
-    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
     </header>
 
     <section id="banner" class="banner">
@@ -401,28 +397,14 @@
             header.classList.toggle('sticky', window.scrollY > 0);
         });
 
-        function clickMenu() {
-            if (nav.style.display == 'block') {
-                nav.style.display = 'none';
-            } else {
-                nav.style.display = 'block';
-            }
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const menu__lista = document.querySelector('.menu__lista');
+            menuToggle.classList.toggle('active');
+            menu__lista.classList.toggle('active');
         }
 
-        function tamanhoTela() {
-            if(window.innerWidth >= 768) {
-                menu.style.display = 'block'
-            } else {
-                menu.style.display = 'none'
-            }
-        }
-        function clickMenu() {
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none'
-            } else {
-                menu.style.display = 'block'
-            }
-        }
+        
     </script>
 
 </body>
