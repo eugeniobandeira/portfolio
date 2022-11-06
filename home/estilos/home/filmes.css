@@ -77,7 +77,8 @@
 @media screen and (min-width: 350px) {
     .filmes__conteiner .filmes__card {
         height: 150px;
-        margin: 0;
+        margin: 20px 0;
+        
     }
     .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
         /* width: 300px; */
@@ -90,7 +91,7 @@
         width: 250px;
         height: 140px;
         /* left: 40px; */
-        left: 0;
+        left: 15px;
     }
     .filmes__conteiner .filmes__card:hover {
         height: 450px;
