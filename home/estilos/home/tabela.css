@@ -1,11 +1,11 @@
 .estudo__conteiner--tabela {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .estudo__table {
     border-collapse: collapse;
-    margin: 0;
+    margin-top: 15px;
     padding: 0;
     
 }
@@ -16,23 +16,26 @@
 .table__data {
     padding: 5px;
 }
+.table__tbody--tr:hover {
+    background-color: #eee;
+}
 .table__tbody--tr .nome, .table__thead--th {
     text-align: center;
 }
 .table__tbody--tr .logo-linguagens {
-    text-align: left;
     height: 60px;
+    text-align: left;
 }
 .table__thead--th {
     background-color: #ff0157;
 }
 
 @media screen and (min-width: 350px) {
-    .logo-linguagens {
-        height: 30px;   
-    }
     .estudo__table {
         width: 85vw;
+    }
+    .logo-linguagens {
+        height: 30px;   
     }
 }
 @media screen and (min-width: 700px) {

@@ -1,22 +1,42 @@
-
-.sobre__perfil--foto {
-    width: 250px; 
-    height: 250px;
-    /* width: 340px; 
-    height: 350px; */ 
-    background-color: rgba(211, 211, 211, 0.829); border-radius: 50%; 
-    border: 1px solid rgba(0, 119, 255, 0.726);
-    display: block;
-    margin: auto;
-}
-.sobre__perfil--legenda  {
-    text-align: center;
-    padding: 10px;
+.sobre__biografia--texto {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 5px 24px;
+    text-align: justify;
+    text-indent: 30px;
 }
 .sobre__descricao {
     padding-left: 24px;
 }
-/* .sobre__biografia--texto {
-    text-align: justify;
-    padding: 5px 24px;
-} */
+.sobre__perfil--foto {
+    background-color: rgba(211, 211, 211, 0.829); 
+    border: 1px solid rgba(0, 119, 255, 0.726);
+    border-radius: 50%; 
+    display: block;
+    height: 250px; 
+    margin: auto;
+    width: 250px; 
+}
+.sobre__perfil--legenda  {
+    padding: 10px;
+    text-align: center;
+}
+.sobre__titulo {
+    padding: 20px 0;
+    text-align: center;
+}
+.sobre__titulo--destaque {
+    color: #ff0157;
+}
+
+@media screen and (min-width: 350px) {
+    .sobre__titulo {
+        font-size: 1.8rem;   
+    }
+}
+@media screen and (min-width: 700px) {
+    .sobre__titulo {
+        font-size: 3rem;   
+    }
+}

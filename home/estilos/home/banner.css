@@ -1,54 +1,37 @@
 
 .banner__conteudo {
-    max-width: 1000px;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    max-width: 1000px;
 }
 .banner__titulo {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 .banner__botao {
-   /*  font-size: 1em; */
-   
-    display: inline-block;
-    background-color: #ff0157;
-    /* padding: 10px 30px;
-    margin-top: 50px; */
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: .5s;
     background-color: transparent;
-    color: #ff0157;
     border: 2px solid #ff0157;
+    color: #ff0157;
+    display: inline-block;
     letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
 }
 .banner__botao:hover {
-    /* background-color: transparent;
-    color: #ff0157;
-    border: 2px solid #ff0157; */
-    font-weight: 500;
-    color: #fff;
     background-color: #ff0157;
+    color: #fff;
+    font-weight: 500;
 }
 
-/* @media screen and (min-width: 350px) {
-    .banner__conteudo .banner__titulo {
-        font-size: 2.5rem;
-        padding: 15px;
-        margin-bottom: 60px;
-        text-align: center;
-    }
-    .banner__descricao {
-        font-size: 1.5rem;
-        padding: 15px;
-        text-align: center;
-    }
-} */
 @media screen and (min-width: 350px) {
+    .banner__botao {
+        font-size: .8em;
+        padding: 8px 16px;
+        margin-top: 30px;
+    }
     .banner__conteudo .banner__titulo {
         font-size: 2.5rem;
         padding-top: 15px 10px 0 10px ;
@@ -60,23 +43,18 @@
         padding: 0 10px 5px 10px;
         text-align: center;
     }
-    .banner__botao {
-        font-size: .8em;
-        padding: 8px 16px;
-        margin-top: 30px;
-    }
 }
 @media screen and (min-width: 700px) {
+    .banner__botao {
+        font-size: 1em;
+        padding: 10px 30px;
+        margin-top: 50px;
+    }
     .banner__conteudo .banner__titulo {
         font-size: 4rem;
         padding-top: 40px;
     }
     .banner__descricao {
         font-size: 1.5rem;
-    }
-    .banner__botao {
-        font-size: 1em;
-        padding: 10px 30px;
-        margin-top: 50px;
     }
 }

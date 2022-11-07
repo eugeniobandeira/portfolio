@@ -1,6 +1,12 @@
-
+.carreira__titulo {
+    text-align: center;
+    padding: 20px 0;
+}
+.carreira__titulo--destaque {
+    color: #ff0157;
+}
 .carreira__descricao {
-    padding: 5px 24px;
+    padding: 0 0 24px 24px;
 }
 .carreira__box--imgLogos {
     width: 200px;
@@ -14,25 +20,19 @@
 
 .carreira__timeline--conteiner {
     position: relative;
-    /* margin: 0px auto; */
     padding: 20px 0 0 0;
-    width: 1200px;
+    max-width: 1300px;
 }
 .carreira__timeline--conteiner:before {
     content: '';
     position: absolute;
     left: 50%;
     width: 2px;
-    height: 93%;
+    height: calc(100% - 50px);
     background-color: #c5c5c5;
 
 }
 
-.carreira__lista 
-.carreira__lista--item:last-child {
-    padding-bottom: 0;
-    background-color: aqua;
-}
 .carreira__timeline--conteiner 
 .carreira__lista {
     margin: 0;
@@ -47,6 +47,7 @@
     padding: 20px 40px;
     box-sizing: border-box;
 }
+
 .carreira__timeline--conteiner 
 .carreira__lista 
 .carreira__lista--item:nth-child(odd) {
@@ -142,13 +143,38 @@
     border-radius: 18px;
     box-shadow: 0 0 0 2px rgba(233,33,99,0.3);
 }
+.dicas__aside .link__externo:after {
+    content: ' 🔗';
+}
+.dicas__aside .link__externo {
+    text-decoration: none;
+    background-color: #eee;
+    color: #111;
+}
+.dicas__aside .link__externo:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 1000px) {
     .carreira__timeline--conteiner {
         width: 100%;
     }
+    .carreira__timeline--conteiner {
+        display: flex;
+        justify-content: center;
+    }
+    .carreira__titulo {
+        font-size: 3rem;
+    }
+    
 }
 @media screen and (max-width: 767px) {
+    .carreira__titulo {
+        font-size: 1.8rem;
+    }
+    .carreira__cargo--descricao {
+        text-align: left;
+    }
     .carreira__timeline--conteiner {
         width: 100%;
     }
@@ -157,7 +183,8 @@
     }
     .carreira__timeline--conteiner .carreira__lista
     .carreira__lista--item:nth-child(odd), 
-    .carreira__timeline--conteiner .carreira__lista 
+    .carreira__timeline--conteiner 
+    .carreira__lista 
     .carreira__lista--item:nth-child(even) {
         width: 100%;
         text-align: justify;
@@ -186,7 +213,15 @@
     .carreira__lista--conteudo {
         margin-top: 20px;
     }
-    .carreira__timeline--conteiner:before {
-        height: 92%;
+    
+}
+@media screen and (min-width: 350px) {
+    .carreira__titulo {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 700px) {
+    .carreira__titulo {
+        font-size: 3rem;
     }
 }

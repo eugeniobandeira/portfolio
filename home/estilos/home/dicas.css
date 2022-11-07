@@ -1,0 +1,64 @@
+.dicas__titulo {
+    text-align: center;
+    padding: 0px 0 20px 0;
+}
+.dicas__titulo--destaque {
+    color: #ff0157;
+}
+.estudo__box--descricao {
+    text-align: justify;
+    padding: 5px 24px;
+    text-indent: 30px;
+}
+.dicas__subtitulo {
+    text-align: center;
+}
+.dicas__aside .link__externo {
+
+}
+
+.carreira__lista .link__externo:after {
+    content: ' 🔗';
+}
+.carreira__lista .link__externo {
+    text-decoration: none;
+    background-color: #eee;
+    color: #111;
+}
+.carreira__lista .link__externo:hover {
+    text-decoration: underline;
+}
+@media screen and (min-width: 350px) {
+    .dicas__titulo {
+        font-size: 1.8rem;
+    }
+    .dicas__subtitulo {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 700px) {
+    .dicas__titulo {
+        font-size: 3rem;
+    }
+    .dicas__subtitulo {
+        font-size: 2rem;
+    }
+    article .dicas__aside {
+        float: right;
+        position: relative;
+        right: 100px;
+        padding: 20px;
+        text-align: center;
+    }
+    .estudo__box {
+        /* max-width: 1200px; */
+    }
+    .dicas__aside {
+        box-sizing: border-box;
+        width: 300px;
+        border: 2px solid black;
+        box-shadow: 4px 4px 4px solid rgba(0, 0, 0, 0.384);
+        /* background-color: aqua; */
+        
+    }
+}
