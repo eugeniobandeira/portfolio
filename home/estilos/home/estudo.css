@@ -51,6 +51,7 @@
 @media screen and (min-width: 350px) {
     .estudo__titulo {
         font-size: 1.8rem;
+        padding: 10px 0;
     }
     .estudo__desenvolvimento--titulo {
         font-size: 1.3rem;

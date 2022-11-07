@@ -143,15 +143,15 @@
     border-radius: 18px;
     box-shadow: 0 0 0 2px rgba(233,33,99,0.3);
 }
-.dicas__aside .link__externo:after {
+.carreira .link__externo:after {
     content: ' 🔗';
 }
-.dicas__aside .link__externo {
+.carreira .link__externo {
     text-decoration: none;
     background-color: #eee;
     color: #111;
 }
-.dicas__aside .link__externo:hover {
+.carreira .link__externo:hover {
     text-decoration: underline;
 }
 
@@ -218,6 +218,7 @@
 @media screen and (min-width: 350px) {
     .carreira__titulo {
         font-size: 1.8rem;
+        padding: 10px 0;
     }
 }
 @media screen and (min-width: 700px) {

@@ -1,10 +1,18 @@
 .titleText {
     color: #fff;
     margin-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.titleText__destaque {
+    color: #ff0157;
 }
 .title p {
     color: #fff;
     text-align: center;
+}
+.contato .contato__descricao {
+    font-size: 1.5rem;
 }
 .contactForm h3 {
     color: black;
@@ -69,8 +77,15 @@
     .contato__descricao {
         margin-bottom: 30px;
     }
+    .titleText {
+        font-size: 1.8rem;
+    }
     
 }
+@media screen and (min-width: 700px) {
+    .titleText {
+        font-size: 3rem;
+    }
 
 
 footer {

@@ -13,20 +13,53 @@
 .dicas__subtitulo {
     text-align: center;
 }
-.dicas__aside .link__externo {
 
-}
 
-.carreira__lista .link__externo:after {
+.article__dicas .link__externo:after {
     content: ' 🔗';
 }
-.carreira__lista .link__externo {
+.article__dicas .link__externo {
     text-decoration: none;
     background-color: #eee;
     color: #111;
 }
-.carreira__lista .link__externo:hover {
+.article__dicas .link__externo:hover {
     text-decoration: underline;
+}
+
+.dicas__lista .dicas__lista--item {
+    padding-left: 24px;
+    
+}
+.dicas__lista--item:before {
+    content: '\2714\0020';
+}
+.dicas__subtitulo--esquerda {
+    text-align: left;
+    padding-left: 24px;
+}
+.dicas__subtitulo-segundo {
+    padding: 24px 0 0 24px;
+}
+.dicas__plataformas {
+    padding-left: 24px;
+}
+.dicas__lista--plataformas {
+    padding-left: 48px;
+}
+.dicas__lista--plataformas .link__externo:after {
+    content: ' 🔗';
+}
+.dicas__lista--plataformas .link__externo {
+    text-decoration: none;
+    background-color: #eee;
+    color: #111;
+}
+.dicas__lista--plataformas .link__externo:hover {
+    text-decoration: underline;
+}
+.estudo__box--descricao--dicaMozillaW3 {
+    padding-left: 24px;
 }
 @media screen and (min-width: 350px) {
     .dicas__titulo {
@@ -42,23 +75,5 @@
     }
     .dicas__subtitulo {
         font-size: 2rem;
-    }
-    article .dicas__aside {
-        float: right;
-        position: relative;
-        right: 100px;
-        padding: 20px;
-        text-align: center;
-    }
-    .estudo__box {
-        /* max-width: 1200px; */
-    }
-    .dicas__aside {
-        box-sizing: border-box;
-        width: 300px;
-        border: 2px solid black;
-        box-shadow: 4px 4px 4px solid rgba(0, 0, 0, 0.384);
-        /* background-color: aqua; */
-        
     }
 }

@@ -32,7 +32,8 @@
 
 @media screen and (min-width: 350px) {
     .sobre__titulo {
-        font-size: 1.8rem;   
+        font-size: 1.8rem;
+        padding: 10px 0;   
     }
 }
 @media screen and (min-width: 700px) {
