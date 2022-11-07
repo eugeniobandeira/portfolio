@@ -50,18 +50,21 @@
         width: 40px;
         height: 40px;
         /* background-color: aqua; */
-        background-image: url('/menu.svg');
-        /* background-size: 30px; */
+        background-image: url('/menu.png');
+        background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
+        background-color: green;
         
     }
     .menuToggle.active {
         /* background-color: yellowgreen; */
-        background-image: url('/close.svg');
+        background-image: url('/fechar.png');
+        background-size: 30px;
         background-repeat: no-repeat;
-        background-position: center;   
+        background-position: center; 
+        background-color: red;  
     }
     .header.sticky .menuToggle {
         /* filter: invert(1); */
