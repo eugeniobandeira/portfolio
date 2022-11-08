@@ -109,6 +109,6 @@
     }
     .menu__lista {
         width: 100%;
-        padding-left: 600px;
+        /* padding-left: 600px; */
     }
 }
