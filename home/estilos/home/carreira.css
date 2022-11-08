@@ -21,7 +21,7 @@
 .carreira__timeline--conteiner {
     position: relative;
     padding: 20px 0 0 0;
-    max-width: 1300px;
+    
 }
 .carreira__timeline--conteiner:before {
     content: '';
@@ -143,6 +143,7 @@
     border-radius: 18px;
     box-shadow: 0 0 0 2px rgba(233,33,99,0.3);
 }
+
 .carreira .link__externo:after {
     content: ' 🔗';
 }
@@ -155,9 +156,11 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .carreira__timeline--conteiner {
-        width: 100%;
+        max-width: 1300px;
+        display: block;
+        margin: auto;
     }
     .carreira__timeline--conteiner {
         display: flex;
@@ -166,8 +169,27 @@
     .carreira__titulo {
         font-size: 3rem;
     }
-    
+    .carreira__box--imgLogos {
+        width: 570px;
+    }
+    .carreira__timeline--conteiner 
+    .carreira__lista 
+    .carreira__lista--item:nth-child(odd)
+    .carreira__box--imgLogos {
+    position: absolute;
+    right: 40px;
+    top: -30px;
+    }
+    .carreira__timeline--conteiner 
+    .carreira__lista 
+    .carreira__lista--item
+    .carreira__logo--empresa {
+    width: 200px;
+    }
+
 }
+    
+
 @media screen and (max-width: 767px) {
     .carreira__titulo {
         font-size: 1.8rem;

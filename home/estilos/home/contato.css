@@ -11,9 +11,7 @@
     color: #fff;
     text-align: center;
 }
-.contato .contato__descricao {
-    font-size: 1.5rem;
-}
+
 .contactForm h3 {
     color: black;
     padding: 10px 0;
@@ -80,12 +78,16 @@
     .titleText {
         font-size: 1.8rem;
     }
+    .contato .contato__descricao {
+        font-size: 1.4rem;
+    }
     
 }
 @media screen and (min-width: 700px) {
     .titleText {
         font-size: 3rem;
     }
+}
 
 
 footer {
