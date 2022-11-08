@@ -97,4 +97,18 @@
         color: black;
     }
     
+    
+}
+@media screen and (min-width: 1000px) {
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 1000px;
+        
+    }
+    .menu__lista {
+        width: 100%;
+        padding-left: 600px;
+    }
 }
