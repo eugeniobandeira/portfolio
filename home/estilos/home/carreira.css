@@ -159,8 +159,6 @@
 @media screen and (min-width: 1000px) {
     .carreira__timeline--conteiner {
         max-width: 1300px;
-        display: block;
-        margin: auto;
     }
     .carreira__timeline--conteiner {
         display: flex;
@@ -186,14 +184,13 @@
     .carreira__logo--empresa {
     width: 200px;
     }
-
+    .carreira__timeline--conteiner .carreira__lista {
+        align-self: center;
+    }
 }
     
 
-@media screen and (min-width: 730px) {
-    .carreira__titulo {
-        font-size: 3rem;
-    }
+@media screen and (max-width: 767px) {
     .carreira__titulo {
         font-size: 1.8rem;
     }
@@ -246,8 +243,8 @@
         padding: 10px 0;
     }
 }
-/* @media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) {
     .carreira__titulo {
         font-size: 3rem;
     }
-} */
+}
