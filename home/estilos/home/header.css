@@ -16,11 +16,12 @@
     color: #fff;
 }
 .header__box {
-
+    width: 90vw;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 .header__logo--destaque {
     color: #ff0157;
@@ -57,11 +58,11 @@
 
 @media screen and (max-width: 767px) {
     .header__box {
-        max-width: 100%;
+       
     }
 }
 @media screen and (min-width: 1000px) {
     .header__box {
-        max-width: 100%;
+        max-width: 1000px; 
     }
 }
