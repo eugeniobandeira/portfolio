@@ -165,7 +165,7 @@
 
 @media screen and (min-width: 990px) {
     .carreira__timeline--conteiner {
-        max-width: 940px;
+        /* width: 940px; */
         display: block;
         margin: auto;
     }
@@ -205,7 +205,7 @@
         text-align: left;
     }
     .carreira__timeline--conteiner {
-        width: 100%;
+        width: 720px;
     }
     .carreira__timeline--conteiner:before {
         left: 20px;

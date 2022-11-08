@@ -63,8 +63,7 @@
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
-        background-color: green;
-        background: url('../');
+        
         
     }
     .menuToggle.active {
