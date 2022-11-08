@@ -21,6 +21,11 @@
 /* .menu__link:hover:last-child(odd) {
     padding-top: 30px;
 } */
+@media screen and (max-width: 767px) {
+    .header .menu__lista.active {
+        height: 30vh;
+    }
+}
 
 
 @media (max-width: 990px) {

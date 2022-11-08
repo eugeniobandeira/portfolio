@@ -155,10 +155,17 @@
 .carreira .link__externo:hover {
     text-decoration: underline;
 }
-
 @media screen and (min-width: 1000px) {
     .carreira__timeline--conteiner {
         max-width: 1300px;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .carreira__timeline--conteiner {
+        max-width: 940px;
         display: block;
         margin: auto;
     }
