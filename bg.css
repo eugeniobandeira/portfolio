@@ -39,9 +39,6 @@
         background-position: center;   
         background: url('close.svg');
     }
-    .header.sticky .menuToggle {
-        /* filter: invert(1); */
-    }
     .menu__lista {
         gap: 0;
     }
