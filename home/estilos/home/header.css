@@ -98,7 +98,7 @@
         background-position: center;  
     }
 }
-@media screen and (min-width:769px) {
+@media screen and (min-width:769px) and (orientation: landscape)  {
     .header .menu__lista {
         display: flex;
     }

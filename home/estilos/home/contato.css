@@ -89,16 +89,16 @@ footer {
     }
     
 }
-@media screen and (min-width:769px) {
+@media screen and (min-width:769px) and (orientation: landscape)  {
     .titleText {
         font-size: 3rem;
     }
     .contato {
-        width: 1200px;
+        width: 1220px;
         min-width: 100vw;
     }
     footer {
-        width: 1200px;
+        width: 1220px;
         min-width: 100vw;
     }
 }

@@ -159,7 +159,7 @@
     text-decoration: underline;
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 770px) and (orientation: landscape)  {
     .carreira__timeline--conteiner {
         max-width: 1300px;
     }
@@ -191,7 +191,7 @@
         align-self: center;
     }
     .carreira {
-        width: 1200px;
+        width: 1220px;
         min-width: 100vw;
     }
 }

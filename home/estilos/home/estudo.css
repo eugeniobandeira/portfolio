@@ -76,7 +76,7 @@
         width: 100%;
     }
 }
-@media screen and (min-width:769px) {
+@media screen and (min-width:769px) and (orientation: landscape)  {
     .estudo__formatura--conteiner-titulo__formatura {
         font-size: 1.5rem;
         padding: 15px 0;
@@ -88,7 +88,7 @@
         width: 100%;
     }
     .estudo {
-        width: 1200px;
+        width: 1220px;
         min-width: 100vw;
     }
 }
