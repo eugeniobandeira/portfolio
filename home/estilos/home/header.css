@@ -39,7 +39,7 @@
 
 .header.sticky {
     background-color: white;
-    /* padding: 5px 100px; */
+    
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.507);
     height: 70px;
     margin-top: 0;
@@ -59,7 +59,6 @@
     } */
     .header.sticky {
         padding: 10px 20px;
-        color: blue;
     }
     .header .menu__lista {
         display: none;
@@ -74,35 +73,52 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: red;
+        background-color: #eee;
     }
     .header .menu .menu__lista .menu__item .menu__link {
         counter-reset: #111;
         font-size: 1.4em;
         font-weight: 300;
     }
+    .menuToggle {
+        content: '';
+        position: relative;
+        width: 40px;
+        height: 40px;
+        content: '';
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        
+    }
+    .menuToggle.active {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;  
+    }
 }
 @media screen and (min-width:769px) {
     .header .menu__lista {
         display: flex;
     }
-    .header.sticky {
-        padding: 10px 20px;
-        color: rgb(21, 255, 0);
-        /* width: 80vw; */
-    }
     .header {
         max-width: 1200px;
-        background-color: tomato;
+        background-color: green;
+    }
+    .header.sticky {
+        padding: 5px 100px;
     }
     .sobre {
         max-width: 1200px;
-        background-color: #ff0157;
+        background-color: aqua;
+        box-sizing: content-box;
     }
     .estudo {
         max-width: 1200px
     }
     .carreira {
         max-width: 1200px
+        box-sizing: content-box;
     }
 }
