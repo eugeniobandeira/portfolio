@@ -1,6 +1,6 @@
 .banner {
     position: relative;
-    width: 1200px;
+    max-width: 1400px;
     min-width: 100vw;
     min-height: 100vh;
     display: flex;

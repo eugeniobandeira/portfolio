@@ -47,7 +47,7 @@
         text-align: center;
     }
 }
-@media screen and (min-width:768px) and (max-width:1281px)/*  and (orientation: landscape) */ {
+@media screen and (min-width:769px) and (orientation: landscape) {
     .banner__botao {
         font-size: 1em;
         padding: 10px 30px;
@@ -64,8 +64,8 @@
         max-width: 1000px;
     }
    .banner {
-        width: 1400px;
-        min-width: 100vw;
+    width: 1220px;
+    min-width: 100vw;
    }
 }
 
