@@ -110,11 +110,12 @@
         padding: 5px 100px;
     }
     .sobre {
+        width: 1200px;
         min-width: 100vw;
-        background-color: yellow;
     }
     .estudo {
-        max-width: 1200px
+        width: 1200px;
+        min-width: 100vw;
     }
     .carreira {
         max-width: 1200px;

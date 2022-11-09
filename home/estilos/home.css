@@ -12,3 +12,7 @@
     overflow: hidden;
 } */
 
+html, body {
+    width: 100vw;
+}
+
