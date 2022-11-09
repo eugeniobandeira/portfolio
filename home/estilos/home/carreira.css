@@ -191,9 +191,6 @@
     
 
 @media screen and (max-width: 767px) {
-    .carreira__lista {
-        width: 85vw;
-    }
     .carreira__titulo {
         font-size: 1.8rem;
     }
@@ -202,7 +199,6 @@
     }
     .carreira__timeline--conteiner {
         width: 100%;
-        box-sizing: border-box;
     }
     .carreira__timeline--conteiner:before {
         left: 20px;

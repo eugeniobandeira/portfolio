@@ -60,9 +60,15 @@
     .header__box {
        
     }
+    body {
+        background-color: blueviolet;
+    }
 }
 @media screen and (min-width: 1000px) {
     .header__box {
         max-width: 1000px; 
+    }
+    body {
+        background-color: aqua;
     }
 }
