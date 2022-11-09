@@ -57,4 +57,7 @@ body {
     .sobre__titulo {
         font-size: 3rem;   
     }
+    .sobre {
+        width: 816px
+    }
 }

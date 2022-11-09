@@ -53,15 +53,13 @@
     font-weight: 500;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
     .header__box {
         width: 90vw;
         background-color: darkslategrey;
     }
     .header {
         width: 700px;
-        background-color: aqua;
-        overflow: hidden;
     }
     .header.sticky {
         padding: 10px 20px;
@@ -89,7 +87,7 @@
         font-weight: 300;
     }
 }
-@media only screen and (min-width:769px) {
+@media screen and (min-width:769px) {
     .header .menu__lista {
         display: flex;
     }
@@ -102,7 +100,7 @@
         width: 80vw;
     }
     .header {
-        width: 80vw;
+        width: 816px;
         background-color: tomato;
     }
 }

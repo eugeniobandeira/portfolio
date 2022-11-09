@@ -190,7 +190,7 @@
 }
     
 
-@media only screen and (min-width:321px) and (max-width:768px) {
+@media screen and (min-width:321px) and (max-width:768px) {
     .carreira__titulo {
         font-size: 1.8rem;
         padding: 10px 0;
@@ -238,8 +238,8 @@
     }
     
 }
-@media only screen and (min-width:769px) {
+/* @media only screen and (min-width:769px) {
     .carreira__titulo {
         font-size: 3rem;
     }
-}
+} */
