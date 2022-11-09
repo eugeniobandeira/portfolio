@@ -8,7 +8,7 @@
     transition: .5s;
     box-sizing: border-box;
     margin-top: 20px;
-    /* overflow: hidden; */
+    overflow: hidden;
     
 }
 .header__logo {
@@ -57,18 +57,17 @@
 
 
 @media screen and (max-width: 767px) {
-    .header__box {
-       
-    }
-    body {
-        background-color: blueviolet;
+    .header.sticky {
+        width: 200px;
+        background-color: red;
     }
 }
 @media screen and (min-width: 1000px) {
     .header__box {
         max-width: 1000px; 
     }
-    body {
-        background-color: aqua;
+    .header.sticky {
+        width: 400px;
+        background-color: yellow;
     }
 }
