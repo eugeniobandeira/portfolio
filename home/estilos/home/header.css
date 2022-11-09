@@ -54,6 +54,10 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
+    .header__box {
+        width: 90vw;
+        background-color: darkslategrey;
+    }
     .header {
         width: 700px;
         background-color: aqua;
@@ -98,6 +102,6 @@
     }
     .header {
         width: 100%;
-        background-color: pink;
+        background-color: goldenrod;
     }
 }

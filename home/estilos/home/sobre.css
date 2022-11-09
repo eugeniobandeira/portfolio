@@ -29,7 +29,9 @@
 .sobre__titulo--destaque {
     color: #ff0157;
 }
-
+.sobre {
+    background-color: gray;
+}
 .carreira {
     background-color: blue;
 }
