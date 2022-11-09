@@ -61,7 +61,7 @@
     
 }
 
-@media screen and (min-width: 350px) {
+@media only screen and (min-width:321px) and (max-width:768px) {
     .contato {
         display: flex;
         justify-content: center;
@@ -83,7 +83,7 @@
     }
     
 }
-@media screen and (min-width: 700px) {
+@media only screen and (min-width:769px) {
     .titleText {
         font-size: 3rem;
     }

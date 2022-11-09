@@ -30,7 +30,7 @@
     background-color: #ff0157;
 }
 
-@media screen and (min-width: 350px) {
+@media only screen and (min-width:321px) and (max-width:768px) {
     .estudo__table {
         width: 85vw;
     }
@@ -38,7 +38,7 @@
         height: 30px;   
     }
 }
-@media screen and (min-width: 700px) {
+@media only screen and (min-width:769px) {
     .estudo__table {
         width: auto;
     }

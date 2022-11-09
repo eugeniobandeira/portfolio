@@ -26,7 +26,7 @@
     font-weight: 500;
 }
 
-@media screen and (min-width: 350px) {
+@media only screen and (min-width:321px) and (max-width:768px) {
     .banner__botao {
         font-size: .8em;
         padding: 8px 16px;
@@ -44,7 +44,7 @@
         text-align: center;
     }
 }
-@media screen and (min-width: 700px) {
+@media only screen and (min-width:769px) {
     .banner__botao {
         font-size: 1em;
         padding: 10px 30px;

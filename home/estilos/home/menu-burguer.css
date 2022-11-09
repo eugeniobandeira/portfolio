@@ -18,24 +18,15 @@
     text-decoration: underline;
     font-weight: bold;
 }
-@media screen and (min-width: 767px) {
-    .header .menu__lista.active {
-        width: 100%;
-        height: calc(100% - 60px);
-        position: fixed;
-        top: 70px;
-        left: 0;
+@media only screen and (min-width: 801px) {
+    .header .menu__lista {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #eee;
     }
     
 }
 
 
-@media (max-width: 990px) {
+@media only screen and (min-width: 321px) and (max-width: 800px) {
     .header.sticky {
         padding: 10px 20px;
     }
@@ -64,7 +55,6 @@
         position: relative;
         width: 40px;
         height: 40px;
-        /* background-color: aqua; */
         content: '';
         background-size: 30px;
         background-repeat: no-repeat;

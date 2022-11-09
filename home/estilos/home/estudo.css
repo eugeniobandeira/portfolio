@@ -48,7 +48,7 @@
     padding: 5px 24px;
 }
 
-@media screen and (min-width: 350px) {
+@media only screen and (min-width:321px) and (max-width:768px) {
     .estudo__titulo {
         font-size: 1.8rem;
         padding: 10px 0;
@@ -72,7 +72,7 @@
         width: 100%;
     }
 }
-@media screen and (min-width: 700px) {
+@media only screen and (min-width:769px) {
     .estudo__formatura--conteiner-titulo__formatura {
         font-size: 1.5rem;
         padding: 15px 0;

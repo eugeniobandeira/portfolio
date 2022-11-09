@@ -52,22 +52,3 @@
     color: #111;
     font-weight: 500;
 }
-
-
-
-
-@media screen and (max-width: 767px) {
-    .header.sticky {
-        width: 200px;
-        background-color: red;
-    }
-}
-@media screen and (min-width: 1000px) {
-    .header__box {
-        max-width: 1000px; 
-    }
-    .header.sticky {
-        width: 400px;
-        background-color: yellow;
-    }
-}
