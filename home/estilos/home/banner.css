@@ -44,7 +44,7 @@
         text-align: center;
     }
 }
-@media only screen and (min-width:769px) {
+@media only screen and (max-width:768px) {
     .banner__botao {
         font-size: 1em;
         padding: 10px 30px;

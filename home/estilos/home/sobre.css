@@ -31,7 +31,8 @@
 }
 
 .sobre {
-    background-color: aqua;
+    background-color: lightcoral;
+    min-width: 100vw;
 }
 .carreira {
     background-color: blue;
@@ -48,7 +49,7 @@
 body {
     background-color: darkmagenta;
 }
-@media only screen and (min-width:321px) and (max-width:601px) {
+@media only screen and (min-width:321px) and (max-width:768px) {
     .sobre__titulo {
         font-size: 1.8rem;
         padding: 10px 0;   
