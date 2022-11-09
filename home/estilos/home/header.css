@@ -94,14 +94,15 @@
         display: flex;
     }
     .header__box {
-        width: 90vw;
+        width: 80vw;
     }
     .header.sticky {
         padding: 10px 20px;
         color: rgb(21, 255, 0);
+        width: 80vw;
     }
     .header {
-        width: 100%;
+        width: 80vw;
         background-color: goldenrod;
     }
 }
