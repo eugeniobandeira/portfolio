@@ -100,7 +100,7 @@
         width: 80vw;
     }
     .header {
-        width: 816px;
+        max-width: 1200px;
         background-color: tomato;
     }
 }

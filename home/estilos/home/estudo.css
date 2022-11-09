@@ -72,7 +72,7 @@
         width: 100%;
     }
 }
-@media only screen and (min-width:769px) {
+@media screen and (min-width:769px) {
     .estudo__formatura--conteiner-titulo__formatura {
         font-size: 1.5rem;
         padding: 15px 0;
@@ -82,5 +82,8 @@
     }
     .imagem {
         width: 100%;
+    }
+    .estudo {
+        max-width: 1200px;
     }
 }
