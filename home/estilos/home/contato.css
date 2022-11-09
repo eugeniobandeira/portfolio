@@ -89,9 +89,11 @@
     }
     .contato {
         max-width: 1200px;
+        min-width: 100vw;
     }
     footer {
         max-width: 1200px;
+        min-width: 100vw;
     }
 }
 
