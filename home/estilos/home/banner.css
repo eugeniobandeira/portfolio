@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
+    
 }
 .banner__titulo {
     box-sizing: border-box; 
@@ -27,6 +27,9 @@
 }
 
 @media screen and (min-width:321px) and (max-width:767px) {
+    .banner {
+        max-width: 100vw;
+    }
     .banner__botao {
         font-size: .8em;
         padding: 8px 16px;
@@ -44,7 +47,7 @@
         text-align: center;
     }
 }
-@media screen and (min-width:768px) and (orientation: landscape) {
+@media screen and (min-width:768px) and (max-width:1281px)/*  and (orientation: landscape) */ {
     .banner__botao {
         font-size: 1em;
         padding: 10px 30px;
@@ -57,9 +60,12 @@
     .banner__descricao {
         font-size: 1.5rem;
     }
-    .banner {
-        width: 1220px;
-        min-width: 100vw;
+    .banner__conteudo {
+        max-width: 1000px;
     }
+   .banner {
+        width: 1400px;
+        min-width: 100vw;
+   }
 }
 

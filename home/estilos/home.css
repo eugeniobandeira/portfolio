@@ -12,7 +12,10 @@
     overflow: hidden;
 } */
 
-html, body {
+body {
+    width: 100vw;
+}
+html {
     width: 100vw;
 }
 
