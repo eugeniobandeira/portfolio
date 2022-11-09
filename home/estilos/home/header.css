@@ -55,18 +55,20 @@
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
     .header {
-        min-width: 100%;
+        width: 700px;
         background-color: aqua;
+        overflow: hidden;
     }
     .header.sticky {
         padding: 10px 20px;
         color: blue;
+        width: 700px;
     }
     .header .menu__lista {
         display: none;
     }
     .header .menu__lista.active {
-        width: 100%;
+        width: 700px;
         height: calc(100% - 250px);
         position: fixed;
         top: 70px;
