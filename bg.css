@@ -1,6 +1,6 @@
 .banner {
     position: relative;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,30 +17,7 @@
     background-position: right bottom;
 }
 
-@media (max-width: 990px) {
-    .header.sticky {
-        padding: 10px 20px;
-    }
-    .header .menu__lista {
-        display: none;
-    }
-    .header .menu__lista.active {
-        width: 100%;
-        height: calc(100% - 250px);
-        position: fixed;
-        top: 70px;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #eee;
-    }
-    .header .menu .menu__lista .menu__item .menu__link {
-        counter-reset: #111;
-        font-size: 1.4em;
-        font-weight: 300;
-    }
+@media only screen and (min-width: 321px) and (max-width: 800px) {
     .menuToggle {
         
         position: relative;
