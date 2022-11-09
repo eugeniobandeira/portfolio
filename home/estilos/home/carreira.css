@@ -191,7 +191,7 @@
         align-self: center;
     }
     .carreira {
-        max-width: 1200px;
+        width: 1200px;
         min-width: 100vw;
     }
 }
@@ -242,10 +242,6 @@
     }
     .carreira__lista--conteudo {
         margin-top: 20px;
-    }
-    .carreira {
-        width: 1200px;
-        min-width: 100vw;
     }
     
 }

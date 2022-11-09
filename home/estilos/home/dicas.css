@@ -81,7 +81,7 @@
         font-size: 2rem;
     }
     .dicas {
-        max-width: 1200px;
+        width: 1200px;
         min-width: 100vw;
     }
 }

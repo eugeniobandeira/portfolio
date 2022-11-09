@@ -94,11 +94,11 @@ footer {
         font-size: 3rem;
     }
     .contato {
-        max-width: 1200px;
+        width: 1200px;
         min-width: 100vw;
     }
     footer {
-        max-width: 1200px;
+        width: 1200px;
         min-width: 100vw;
     }
 }
