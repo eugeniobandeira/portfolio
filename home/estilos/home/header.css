@@ -95,4 +95,14 @@
         max-width: 1200px;
         background-color: tomato;
     }
+    .sobre {
+        max-width: 1200px;
+        background-color: #ff0157;
+    }
+    .estudo {
+        max-width: 1200px
+    }
+    .carreira {
+        max-width: 1200px
+    }
 }

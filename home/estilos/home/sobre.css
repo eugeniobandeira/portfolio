@@ -29,24 +29,6 @@
 .sobre__titulo--destaque {
     color: #ff0157;
 }
-.sobre {
-    background-color: gray;
-}
-.carreira {
-    background-color: blue;
-}
-.estudo {
-    background-color: red;
-}
-.dicas {
-    background-color: yellow;
-}
-.contato {
-    background-color: yellowgreen;
-}
-body {
-    background-color: darkmagenta;
-}
 @media only screen and (min-width:321px) and (max-width:768px) {
     .sobre__titulo {
         font-size: 1.8rem;
@@ -57,7 +39,5 @@ body {
     .sobre__titulo {
         font-size: 3rem;   
     }
-    .sobre {
-        max-width: 1200px;
-    }
+    
 }
