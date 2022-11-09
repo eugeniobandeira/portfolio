@@ -87,6 +87,12 @@
     .titleText {
         font-size: 3rem;
     }
+    .contato {
+        max-width: 1200px;
+    }
+    footer {
+        max-width: 1200px;
+    }
 }
 
 

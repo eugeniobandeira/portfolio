@@ -77,4 +77,7 @@
     .dicas__subtitulo {
         font-size: 2rem;
     }
+    .dicas {
+        max-width: 1200px;
+    }
 }

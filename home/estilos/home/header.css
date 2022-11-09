@@ -54,23 +54,18 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
-    .header__box {
-        width: 90vw;
-        background-color: darkslategrey;
-    }
-    .header {
-        width: 700px;
-    }
+    /* .header {
+        max-width: 1200px;
+    } */
     .header.sticky {
         padding: 10px 20px;
         color: blue;
-        width: 700px;
     }
     .header .menu__lista {
         display: none;
     }
     .header .menu__lista.active {
-        width: 700px;
+        width: 100%;
         height: calc(100% - 250px);
         position: fixed;
         top: 70px;
@@ -91,13 +86,10 @@
     .header .menu__lista {
         display: flex;
     }
-    .header__box {
-        width: 80vw;
-    }
     .header.sticky {
         padding: 10px 20px;
         color: rgb(21, 255, 0);
-        width: 80vw;
+        /* width: 80vw; */
     }
     .header {
         max-width: 1200px;

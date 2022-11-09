@@ -156,7 +156,7 @@
     text-decoration: underline;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 770px) {
     .carreira__timeline--conteiner {
         max-width: 1300px;
     }
@@ -186,6 +186,9 @@
     }
     .carreira__timeline--conteiner .carreira__lista {
         align-self: center;
+    }
+    .carreira {
+        max-width: 1200px;
     }
 }
     
