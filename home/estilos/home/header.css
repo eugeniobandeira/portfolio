@@ -110,15 +110,14 @@
         padding: 5px 100px;
     }
     .sobre {
-        max-width: 1200px;
-        background-color: aqua;
-        box-sizing: content-box;
+        min-width: 100vw;
+        background-color: yellow;
     }
     .estudo {
         max-width: 1200px
     }
     .carreira {
-        max-width: 1200px
+        max-width: 1200px;
         box-sizing: content-box;
     }
 }

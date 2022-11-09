@@ -1,3 +1,6 @@
+.sobre {
+    max-width: 1500px;
+}
 .sobre__biografia--texto {
     font-size: 16px;
     font-weight: 400;
