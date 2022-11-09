@@ -104,21 +104,10 @@
     }
     .header {
         max-width: 1200px;
-        background-color: green;
+        min-width: 100vw;
     }
     .header.sticky {
         padding: 5px 100px;
     }
-    .sobre {
-        width: 1200px;
-        min-width: 100vw;
-    }
-    .estudo {
-        width: 1200px;
-        min-width: 100vw;
-    }
-    .carreira {
-        max-width: 1200px;
-        box-sizing: content-box;
-    }
+
 }
