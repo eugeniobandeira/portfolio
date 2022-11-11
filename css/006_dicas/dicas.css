@@ -60,7 +60,7 @@
 }
 
 
-/* @media only screen and (min-width:321px) and (max-width:768px) {
+@media screen and (min-width:321px) and (max-width:768px) {
     .dicas__titulo {
         font-size: 1.8rem;
     }
@@ -68,7 +68,7 @@
         font-size: 1.5rem;
     }
 }
-@media screen and (min-width:769px) and (orientation: landscape) and (max-width:1400px) {
+/* @media screen and (min-width:769px) and (orientation: landscape) and (max-width:1000px) {
     .dicas__titulo {
         font-size: 3rem;
     }
@@ -76,7 +76,16 @@
         font-size: 2rem;
     }
     .dicas {
-        max-width: 1400px;
+        width: 1020px; 
+        min-width: 100vw;
         
+    }
+}
+@media screen and (min-width: 1020px) {
+    .dicas {
+        width: 1300px;
+    }
+    .dicas__titulo {
+        font-size: 3rem;
     }
 } */

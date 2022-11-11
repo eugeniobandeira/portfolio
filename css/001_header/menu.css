@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 800px) {
+/* @media screen and (min-width: 680px) and (max-width: 800px) {
 
      .menu__lista {
         gap: 15px;
@@ -79,7 +79,7 @@
 @media screen and (min-width: 810px) {
     .menu {
         display: grid;
-        place-items: end;
+        place-items: start;
         width: 800px;
 
      }
@@ -87,3 +87,4 @@
         gap: 50px;
      }
 }
+ */

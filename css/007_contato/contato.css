@@ -1,6 +1,6 @@
 .contato {
     height: 100vh;
-    background-image: url('/img/background/bg-contato.jpg');
+    background-image: url('../img/background/bg-contato.jpg');
     background-size: cover;
     background-position: right bottom;
 }
@@ -68,3 +68,44 @@
     letter-spacing: 5px;
     
 }
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contactForm {
+        width: 70vw;
+        margin: 0;
+    }
+    .contato__descricao {
+        margin-bottom: 30px;
+    }
+    .titleText {
+        font-size: 1.8rem;
+    }
+    .contato .contato__descricao {
+        font-size: 1.4rem;
+    }
+    
+}
+/* @media screen and (min-width:769px) and (orientation: landscape) and (max-width:1000px) {
+    .titleText {
+        font-size: 3rem;
+    }
+    .contato {
+        width: 1020px; 
+        min-width: 100vw;
+    }
+}
+@media screen and (min-width: 1020px) {
+    .contato {
+        width: 1300px;
+        
+    }
+    .titleText {
+        font-size: 3rem;
+    }
+} */

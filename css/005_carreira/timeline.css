@@ -196,11 +196,9 @@
     
 }
 
-@media screen and (min-width: 770px) and (orientation: landscape) and (max-width:1400px) {
+/* @media screen and (min-width:769px) and (orientation: landscape) and (max-width:1000px) {
     .carreira__timeline--conteiner {
         max-width: 1300px;
-    }
-    .carreira__timeline--conteiner {
         display: flex;
         justify-content: center;
     }
@@ -228,7 +226,16 @@
         align-self: center;
     }
     .carreira {
-        max-width: 1400px;
-        /* min-width: 100vw; */
+        width: 1020px; 
+        min-width: 100vw;
     }
 }
+@media screen and (min-width: 1020px) {
+    .carreira {
+        width: 1300px;
+    
+    }
+    .carreira__titulo {
+        font-size: 3rem;
+    }
+} */
