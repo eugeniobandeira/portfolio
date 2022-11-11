@@ -1,0 +1,33 @@
+.estudo {
+    padding: 0 30px;
+}
+.estudo__titulo {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.estudo__titulo::first-letter {
+    color: #ff0157;
+}
+.estudo__texto {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 5px 0;
+    text-align: justify;
+    text-indent: 30px;
+}
+.estudo__texto .link__externo {
+    text-decoration: none;
+    background-color: #eee;
+    color: #111;
+}
+.estudo__texto .link__externo:hover {
+    text-decoration: underline;
+}
+.estudo__texto .link__externo:after {
+    content: ' 🔗';
+}
+.estudo__nota {
+    margin: 5px 24px;
+}
+

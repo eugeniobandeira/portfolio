@@ -1,0 +1,13 @@
+.banner {
+    background-image: url('/img/background/bg-terra_dark.jpeg');
+    position: relative;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: bottom center;
+    color: #fff;
+    box-sizing: border-box;
+}

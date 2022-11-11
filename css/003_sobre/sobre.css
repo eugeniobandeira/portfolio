@@ -1,0 +1,22 @@
+.sobre {
+    padding: 0 30px;
+}
+.sobre__titulo {
+    font-size: 3rem; 
+    padding: 20px 0;
+    text-align: center;  
+}
+.sobre__titulo::first-letter {
+    color: #ff0157;
+}
+.sobre__descricao {
+    padding: 24px;
+    font-size: 16px;
+}
+.sobre__biografia--texto {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 5px 0;
+    text-align: justify;
+    text-indent: 30px;
+}

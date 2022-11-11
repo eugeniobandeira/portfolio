@@ -1,0 +1,82 @@
+.dicas {
+    /* padding: 0 30px; */
+}
+.dicas__titulo {
+    text-align: center;
+    padding: 0px 0 20px 0;
+    font-size: 3rem;
+}
+.dicas__titulo::first-letter {
+    color: #ff0157;
+}
+.dicas__estudo--descricao {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 5px 30px;
+    text-align: justify;
+    text-indent: 30px;
+}
+.dicas__subtitulo {
+    text-align: center;
+}
+
+.dicas__lista .dicas__lista--item {
+    list-style-type: none;
+}
+
+.dicas__lista .dicas__lista--item {
+    padding-left: 24px;
+    
+}
+.dicas__lista--item:before {
+    content: '\2714\0020';
+}
+.dicas__subtitulo--esquerda {
+    text-align: left;
+    padding-left: 24px;
+}
+.dicas__subtitulo-segundo {
+    padding: 24px 0 0 24px;
+}
+.dicas__plataformas {
+    padding-left: 24px;
+}
+.dicas__lista--plataformas {
+    padding-left: 48px;
+}
+.dicas__lista--plataformas .link__externo:after {
+    content: ' 🔗';
+}
+.dicas__lista--plataformas .link__externo {
+    text-decoration: none;
+    background-color: #eee;
+    color: #111;
+}
+.dicas__lista--plataformas .link__externo:hover {
+    text-decoration: underline;
+}
+.estudo__box--descricao--dicaMozillaW3 {
+    padding-left: 24px;
+}
+
+
+/* @media only screen and (min-width:321px) and (max-width:768px) {
+    .dicas__titulo {
+        font-size: 1.8rem;
+    }
+    .dicas__subtitulo {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:769px) and (orientation: landscape) and (max-width:1400px) {
+    .dicas__titulo {
+        font-size: 3rem;
+    }
+    .dicas__subtitulo {
+        font-size: 2rem;
+    }
+    .dicas {
+        max-width: 1400px;
+        
+    }
+} */

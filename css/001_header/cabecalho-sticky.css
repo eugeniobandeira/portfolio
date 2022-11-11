@@ -1,0 +1,22 @@
+.cabecalho.sticky .cabecalho__logo {
+    color: black;
+    font-size: 2rem;
+}
+
+.cabecalho.sticky {
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.507);
+    height: 70px;
+    margin-top: 0;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.cabecalho.sticky .menu__link {
+    color: black;
+}
+.cabecalho.sticky .menu__lista .menu__item .menu__link {
+    color: #111;
+    font-weight: 500;
+}

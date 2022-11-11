@@ -1,0 +1,13 @@
+.sobre__perfil--foto {
+    background-color: rgba(211, 211, 211, 0.829); 
+    border: 1px solid rgba(0, 119, 255, 0.726);
+    border-radius: 50%; 
+    display: block;
+    height: 250px; 
+    margin: auto;
+    width: 250px; 
+}
+.sobre__perfil--legenda  {
+    padding: 10px;
+    text-align: center;
+}

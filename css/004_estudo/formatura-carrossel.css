@@ -1,0 +1,19 @@
+#items-wrapper {
+    margin-bottom: 10px;
+}
+#items {
+    display: flex;
+    overflow-x: auto;
+
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.item {
+    flex: none;
+
+
+    scroll-snap-align: start;
+    pointer-events: none;
+}

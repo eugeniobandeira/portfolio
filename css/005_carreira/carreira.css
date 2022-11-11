@@ -1,0 +1,14 @@
+.carreira {
+    padding: 0 30px;
+}
+.carreira__titulo {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 3rem;
+}
+.carreira__titulo::first-letter {
+    color: #ff0157;
+}
+.carreira__descricao {
+    padding: 0 0 24px 24px;
+}

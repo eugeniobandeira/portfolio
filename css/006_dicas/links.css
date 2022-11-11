@@ -1,0 +1,11 @@
+.article__dicas .link__externo:after {
+    content: ' 🔗';
+}
+.article__dicas .link__externo {
+    text-decoration: none;
+    background-color: #eee;
+    color: #111;
+}
+.article__dicas .link__externo:hover {
+    text-decoration: underline;
+}

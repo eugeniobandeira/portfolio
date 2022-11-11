@@ -1,0 +1,19 @@
+.cabecalho {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    padding: 0 50px;
+    z-index: 10000;
+    transition: .5s;
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: flex;
+}
+.cabecalho__logo {
+    font-size: 3rem;
+    color: #fff;
+}
+.cabecalho__logo--destaque {
+    color: #ff0157;
+}
+
