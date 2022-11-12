@@ -58,7 +58,7 @@
         width: 100%;
     }
 }
-/* @media screen and (min-width:769px) and (orientation: landscape) and (max-width:1000px) {
+@media screen and (min-width:769px) {
     .estudo__formatura--conteiner-titulo__formatura {
         font-size: 1.5rem;
         padding: 15px 0;
@@ -69,18 +69,7 @@
     .imagem {
         width: 100%;
     }
-    .estudo {
-        width: 1020px;
-        min-width: 100vw;
-    }
-} */
-/* @media screen and (min-width: 1020px) {
-    .estudo {
-        width: 1300px;
 
-    }
-    .estudo__titulo {
-        font-size: 3rem;
-    }
-} */
+}
+
 

@@ -29,15 +29,3 @@ footer li {
     color: white;
 }
 
-/* @media screen and (min-width:769px) and (orientation: landscape) and (max-width:1000px) {
-    footer {
-        width: 1020px;
-        min-width: 100vw;
-    }
-}
-@media screen and (min-width: 1020px) {
-    footer {
-        width: 1300px;
-    
-    }
-} */

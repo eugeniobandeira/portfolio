@@ -196,7 +196,7 @@
     
 }
 
-/* @media screen and (min-width:769px) and (orientation: landscape) and (max-width:1000px) {
+@media screen and (min-width:769px)  {
     .carreira__timeline--conteiner {
         max-width: 1300px;
         display: flex;
@@ -225,17 +225,5 @@
     .carreira__timeline--conteiner .carreira__lista {
         align-self: center;
     }
-    .carreira {
-        width: 1020px; 
-        min-width: 100vw;
-    }
+
 }
-@media screen and (min-width: 1020px) {
-    .carreira {
-        width: 1300px;
-    
-    }
-    .carreira__titulo {
-        font-size: 3rem;
-    }
-} */

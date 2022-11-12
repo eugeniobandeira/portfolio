@@ -48,30 +48,30 @@
         position: relative;
         width: 40px;
         height: 40px;
-        /* background-image: url('/EugenioBandeira/img/menu/menu.svg'); */
+
         content: '';
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
-        /* background-color: #ff0157; */
+
     }
     .box-toggle {
         width: 70vw;
-        /* background-color: aqua; */
+
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
     .menuToggle.active {
-        /* background-image: url('/EugenioBandeira/img/menu/close.svg'); */
+
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;  
     }
 }
 
-@media screen and (min-width: 680px) and (max-width: 800px) {
+ @media screen and (min-width: 680px) and (max-width: 800px) {
 
      .menu__lista {
         gap: 15px;
@@ -79,30 +79,10 @@
      .menu {
         display: grid;
         place-items: start;
-        min-width: 400px; 
-        max-width: 800px; 
+        /* min-width: 400px; 
+        max-width: 800px;  */
         padding-left: 30px;
     }
 } 
-@media screen and (min-width: 810px) and (max-width: 1100px) {
-    .menu {
-        display: grid;
-        place-items: start;
-        width: 800px;
-        padding-left: 50px;
-     }
-     .menu__lista {
-        gap: 50px;
-     }
-}
-@media screen and (min-width: 1110px) {
-    .menu {
-        display: grid;
-        place-items: end;
-        width: 1000px;
-        /* padding-left: 50px; */
-     }
-     .menu__lista {
-        gap: 50px;
-     }
-}
+
+

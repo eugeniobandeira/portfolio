@@ -91,21 +91,8 @@
     }
     
 }
-/* @media screen and (min-width:769px) and (orientation: landscape) and (max-width:1000px) {
+@media screen and (min-width:769px) {
     .titleText {
         font-size: 3rem;
-    }
-    .contato {
-        width: 1020px; 
-        min-width: 100vw;
     }
 }
-@media screen and (min-width: 1020px) {
-    .contato {
-        width: 1300px;
-        
-    }
-    .titleText {
-        font-size: 3rem;
-    }
-} */
