@@ -8,7 +8,6 @@
     box-sizing: border-box;
     margin-top: 20px;
     display: flex;
-    overflow: hidden;
 }
 .cabecalho__logo {
     font-size: 3rem;

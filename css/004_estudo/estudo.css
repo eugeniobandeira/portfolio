@@ -30,6 +30,8 @@
 .estudo__nota {
     text-align: justify;
     font-size: .9rem;
+    line-height: 1.3em;
+    padding: 5px 0;
 }
 
 @media screen and (min-width:321px) and (max-width:768px) {

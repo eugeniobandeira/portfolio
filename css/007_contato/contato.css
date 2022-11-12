@@ -1,6 +1,6 @@
 .contato {
     height: 100vh;
-    background-image: url('../img/background/bg-contato.jpg');
+    background-image: url('/EugenioBandeira/img/background/bg-contato.jpg');
     background-size: cover;
     background-position: right bottom;
 }

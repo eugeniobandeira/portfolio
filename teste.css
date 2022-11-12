@@ -1,13 +1,13 @@
-.banner {
+/* .banner {
     background-image: url('bg-terra_dark.jpeg');
 }
 .contato {
     background-image: url('bg-contato.jpg');
-}
+} */
 
 main {
     min-width: 280px;
-    max-width: 1000px;
+    max-width: 1400px;
     display: block;
     margin: auto;
 }
