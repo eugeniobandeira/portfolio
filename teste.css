@@ -1,10 +1,15 @@
-/* .banner {
+.banner {
     background-image: url('bg-terra_dark.jpeg');
 }
 .contato {
     background-image: url('bg-contato.jpg');
-} */
-
+}
+.menuToggle {
+    background-image: url('menu.svg');
+}
+.menuToggle.active {
+    background-image: url('close.svg');
+}
 main {
     min-width: 280px;
     max-width: 1400px;

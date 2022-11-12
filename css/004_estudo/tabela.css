@@ -18,7 +18,7 @@
 }
 
 
-.table__data.logo {
+/* .table__data.logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@
     border-bottom: 2px solid black;
     border-left: 2.5px solid black;
 }
-
+ */
 
 .table__tbody--tr:hover {
     background-color: #eee;

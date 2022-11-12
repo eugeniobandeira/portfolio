@@ -48,23 +48,23 @@
         position: relative;
         width: 40px;
         height: 40px;
-        background-image: url('/EugenioBandeira/img/menu/menu.svg');
+        /* background-image: url('/EugenioBandeira/img/menu/menu.svg'); */
         content: '';
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
-        background-color: #ff0157;
+        /* background-color: #ff0157; */
     }
     .box-toggle {
         width: 70vw;
-        background-color: aqua;
+        /* background-color: aqua; */
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
     .menuToggle.active {
-        background-image: url('/EugenioBandeira/img/menu/close.svg');
+        /* background-image: url('/EugenioBandeira/img/menu/close.svg'); */
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;  
