@@ -72,7 +72,7 @@
 @media only screen and (min-width:321px) and (max-width:768px) {
     .filmes__conteiner .filmes__card {
         height: 150px;
-        margin: 30px 0;
+        margin: 20px 0;
         
     }
     .filmes__conteiner .filmes__card .filme__card--img .filme__card--imagem {
@@ -89,7 +89,7 @@
         left: 18px;
     }
     .filmes__conteiner .filmes__card:hover {
-        height: 300px;
+        height: 320px;
     }
    /*  .filmes__conteiner .filmes__card .jogoDaImitacao:hover {
         height: 100px;

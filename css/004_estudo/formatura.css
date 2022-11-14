@@ -4,7 +4,7 @@
     text-align: center;
 }
 .estudo__formatura--fotos {
-   padding: 10px;
+   padding: 30px;
 }
 .estudo__formatura--foto {
     
@@ -12,7 +12,7 @@
     height: 350px;
     object-fit: fill;
     overflow: hidden;
-    padding: 5px;
+    padding: 8px;
 }
 .estudo__formatura--foto:first-child {
     padding: 0;

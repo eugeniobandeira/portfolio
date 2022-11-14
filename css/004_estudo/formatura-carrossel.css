@@ -2,6 +2,7 @@
     margin-bottom: 10px;
 }
 #items {
+
     display: flex;
     overflow-x: auto;
 

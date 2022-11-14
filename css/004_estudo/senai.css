@@ -12,3 +12,9 @@
     text-align: center;
     padding: 10px;
 }
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    .estudo__box--senai {
+        width: 70vw;
+    } 
+}
