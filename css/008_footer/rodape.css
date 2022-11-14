@@ -10,6 +10,9 @@ footer {
 }
 footer ul {
     color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
 }
 footer a {
     text-decoration: none;
@@ -22,10 +25,19 @@ footer a:hover {
 }
 footer li {
     padding: 10px 0;
+    width: 40px;
+    height: 40px;
 }
-.svg {
-    width: 35px;
-    height: 35px;
-    color: white;
+
+footer li a img:hover {
+    background-color: #ff0157;
+    border-color: #ff0157;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 

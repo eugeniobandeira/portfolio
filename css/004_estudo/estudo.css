@@ -1,6 +1,6 @@
-.estudo {
+/* .estudo {
     padding: 0 30px;
-}
+} */
 .estudo__titulo {
     padding: 20px 0;
     text-align: center;
@@ -12,7 +12,7 @@
 .estudo__texto {
     font-size: 16px;
     line-height: 1.5em;
-    padding: 5px 0;
+    padding: 5px 30px;
     text-align: justify;
     text-indent: 30px;
 }
@@ -31,7 +31,7 @@
     text-align: justify;
     font-size: .9rem;
     line-height: 1.3em;
-    padding: 5px 0;
+    padding: 5px 30px;
 }
 
 @media screen and (min-width:321px) and (max-width:768px) {

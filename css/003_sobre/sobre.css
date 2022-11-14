@@ -1,6 +1,6 @@
-.sobre {
+/* .sobre {
     padding: 0 30px;
-}
+} */
 .sobre__titulo {
     font-size: 3rem; 
     padding: 20px 0;
@@ -16,7 +16,7 @@
 .sobre__biografia--texto {
     font-size: 16px;
     line-height: 1.5em;
-    padding: 5px 0;
+    padding: 5px 30px;
     text-align: justify;
     text-indent: 30px;
 }

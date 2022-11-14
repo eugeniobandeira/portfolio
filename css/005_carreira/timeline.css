@@ -168,7 +168,7 @@
     .carreira__lista--item:nth-child(even) {
         width: 100%;
         text-align: justify;
-        padding: 0 24px 50px 50px;
+        padding: 0 30px 50px 50px;
     }
 
     .carreira__timeline--conteiner .carreira__lista 
