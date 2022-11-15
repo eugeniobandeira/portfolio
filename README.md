@@ -57,23 +57,28 @@ A sensação de concluir este projeto foi muito boa e estou muito empolgado para
 
 ## Screenshots
 
-![celular-banner](https://user-images.githubusercontent.com/112191399/201993182-5562532d-fb45-4811-b850-2beada91f266.png)
+- Celular
 
-![celular-sobre](https://user-images.githubusercontent.com/112191399/201993329-f0a71e1a-974b-4b12-aa8a-ff796bcb5e56.png)
+![celular-banner](https://user-images.githubusercontent.com/112191399/201993182-5562532d-fb45-4811-b850-2beada91f266.png)
 ![celular-estudo](https://user-images.githubusercontent.com/112191399/201993371-618c87ba-9daf-4c43-9193-df60b8a71a7a.png)
 ![celular-filme](https://user-images.githubusercontent.com/112191399/201993400-16afd7b5-af10-49b9-bec5-da926a56618f.png)
 ![celular-rodape](https://user-images.githubusercontent.com/112191399/201993425-a1243106-72a5-49c3-b25a-49e4cbb19b5f.png)
+
+- Tablet na posição vertical
 
 ![tablet_vertical-carreira](https://user-images.githubusercontent.com/112191399/201993706-489d26bb-e4af-424a-90ea-79a84586cdc3.jpg)
 ![tablet_vertical-estudo](https://user-images.githubusercontent.com/112191399/201993754-2926392f-a87e-4822-b680-32fdb39832bd.jpg)
 ![tablet_vertical-contato](https://user-images.githubusercontent.com/112191399/201993802-6b2b3cae-5acf-4726-ba47-d98ce57e9d76.jpg)
 
+- Tablet na posição horizontal
+
 ![tablet-banner](https://user-images.githubusercontent.com/112191399/201993548-92d7bddc-0756-4052-bf7a-ceabde3ab390.jpg)
 ![tablet-carreira1](https://user-images.githubusercontent.com/112191399/201993862-00909325-2671-4433-bd5c-16bdd6f5b331.jpg)
 ![tablet-formatura](https://user-images.githubusercontent.com/112191399/201993893-b7bf2cd1-9126-460b-bb28-27e17f6e2afa.jpg)
 
+- Computador (horizontal)
+
 ![pc-banner](https://user-images.githubusercontent.com/112191399/201993960-10ee34bf-3be2-42fc-bc85-f83386a1d3b8.png)
-![pc-carreira](https://user-images.githubusercontent.com/112191399/201994005-ade3bc60-fcae-4e85-841c-03d3cfb7be87.png)
 ![pc-carreira2](https://user-images.githubusercontent.com/112191399/201994040-b210777a-8273-4c29-a358-37e059c73280.png)
 ![pc-filmes](https://user-images.githubusercontent.com/112191399/201994093-f46d8407-df1a-45ba-9ed0-08de3419ae45.png)
 ![pc-filmes2](https://user-images.githubusercontent.com/112191399/201994110-59352ee4-f3c5-49e6-872c-f80f3bd5f5d4.png)
