@@ -49,7 +49,7 @@
         position: relative;
         width: 40px;
         height: 40px;
-
+        background-image: url('menu.svg');
         content: '';
         background-size: 30px;
         background-repeat: no-repeat;
@@ -65,7 +65,7 @@
         align-items: center;
     }
     .menuToggle.active {
-
+        background-image: url('close.svg');
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;  

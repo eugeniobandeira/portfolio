@@ -1,30 +1,30 @@
 .contato {
     height: 100vh;
-    background-image: url('/EugenioBandeira/img/background/bg-contato.jpg');
+    background-image: url('bg-contato.jpg');
     background-size: cover;
     background-position: right bottom;
 }
-.titleText {
+.contato__titulo {
     color: #fff;
     padding-top: 20px;
     text-align: center;
     padding-bottom: 15px;
     font-size: 3rem;
 }
-.titleText::first-letter {
+.contato__titulo::first-letter {
     color: #ff0157;
 }
-.title p {
+.titulo .contato__descricao {
     color: #fff;
     text-align: center;
     font-size: 1.3rem;
 }
 
-.contactForm h3 {
+.contato__formulario h3 {
     color: black;
     padding: 10px 0;
 }
-.contactForm {
+.contato__formulario {
     padding: 30px;
     background: #fff;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.096);
@@ -34,12 +34,12 @@
     /* border-radius:  0 0 30px 30px; */
 
 }
-.contactForm .inputBox {
+.contato__formulario .inputBox {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
 }
-.contactForm .inputBox input, .contactForm .inputBox textarea {
+.contato__formulario .inputBox input, .contato__formulario .inputBox textarea {
     width: 100%;
     border: 1px solid #555;
     padding: 10px;
@@ -50,13 +50,13 @@
     resize: none;
     border-radius: 5px;
 }
-.contactForm .inputBox input[type='text'] {
+.contato__formulario .inputBox input[type='text'] {
     padding-right: 0;
 }
-.contactForm .inputBox textarea {
+.contato__formulario .inputBox textarea {
     padding-right: 0;
 }
-.contactForm .inputBox input[type='submit'] {
+.contato__formulario .inputBox input[type='submit'] {
     font-size: 1em;
     color: #fff;
     background-color: #ff0157;
@@ -70,7 +70,7 @@
     border: none;
     cursor: pointer;
 }
-.contactForm .inputBox input[type='submit']:hover {
+.contato__formulario .inputBox input[type='submit']:hover {
     letter-spacing: 5px;
     
 }
@@ -84,7 +84,7 @@
         align-items: center;
         flex-direction: column;
     }
-    .contactForm {
+    .contato__formulario {
         width: 60vw;
         margin: 0;
 
@@ -92,7 +92,7 @@
     .contato__descricao {
         margin-bottom: 30px;
     }
-    .titleText {
+    .contato__titulo {
         font-size: 1.8rem;
     }
     .contato .contato__descricao {
@@ -101,10 +101,10 @@
     
 }
 @media screen and (min-width:769px) {
-    .titleText {
+    .contato__titulo {
         font-size: 3rem;
     }
-    .contactForm {
+    .contato__formulario {
         display: block;
         margin: auto;
         margin-top: 30px;

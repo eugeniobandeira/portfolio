@@ -12,3 +12,13 @@ p, h1, h2, h3, h4, h5, h6 {
 ul, li {
     padding: 0;
 }
+main {
+    min-width: 280px;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+}
+
+html, body {
+    overflow-x: hidden;
+}

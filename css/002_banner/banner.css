@@ -1,5 +1,5 @@
 .banner {
-    /* background-image: url('../img/background/bg-terra_dark.jpeg'); */
+    background-image: url('bg-terra_dark.jpeg');
     position: relative;
     min-width: 100%;
     min-height: 100vh;

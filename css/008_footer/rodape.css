@@ -1,5 +1,4 @@
-
-footer {
+.rodape {
     background-color: #202425;
     color: #fff;
     display: flex;
@@ -8,32 +7,32 @@ footer {
     flex-direction: column;
     padding: 30px 0;
 }
-footer ul {
+.rodape .rodape__lista {
     color: transparent;
     display: flex;
     flex-direction: row;
     gap: 70px;
 }
-footer a {
+.rodape .rodape__lista--link {
     text-decoration: none;
     color: #fff;
     
 }
-footer a:hover {
+.rodape .rodape__lista--link:hover {
     color: #ff0157;
     text-decoration: underline;
 }
-footer li {
+.rodape .rodape__lista--item {
     padding: 10px 0;
     width: 40px;
     height: 40px;
 }
 
-footer li a img:hover {
+.rodape .rodape__lista--item .rodape__lista--link .rodape__imagem:hover {
     background-color: #ff0157;
     border-color: #ff0157;
 }
-footer img {
+.rodape .rodape__imagem {
     width: 40px;
     height: 40px;
     background-color: white;

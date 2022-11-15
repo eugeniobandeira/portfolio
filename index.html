@@ -9,7 +9,7 @@
     <meta name="author" content="Eugenio Bandeira">
     <title>Portfolio Eugênio Bandeira</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="/img/principal/efavicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/principal/efavicon.ico" type="image/x-icon">
     <link href="css/000_configuracao/normalize.css" rel="stylesheet"/>
     <link href="css/000_configuracao/reset.css" rel="stylesheet"/>
     <link href="css/001_header/cabecalho.css" rel="stylesheet"/>
@@ -31,56 +31,50 @@
     <link href="css/006_dicas/filmes.css" rel="stylesheet"/>
     <link href="css/007_contato/contato.css" rel="stylesheet"/>
     <link href="css/008_footer/rodape.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="teste.css">
-    
-
 </head>
+
 <body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__logo">EugB<span class="cabecalho__logo--destaque">.</span></h1>
+        <div class="box-toggle">
+            <div class="menuToggle" onclick="toggleMenu()"></div>
+        </div>
+            <nav class="menu" id="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#estudo">Estudo</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#carreira">Carreira</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#dicas">Dicas</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contato">Contato</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link curriculo" href="css/001_header/Eugenio Bandeira.pdf" download="Eugenio Bandeira.pdf" type="application/pdf">Currículo
+                        </a>
+                    </li>
     
-            <header class="cabecalho">
-                <h1 class="cabecalho__logo">EugB<span class="cabecalho__logo--destaque">.</span></h1>
-                        <div class="box-toggle">
-                            <div class="menuToggle" onclick="toggleMenu()"></div>
-                        </div>
-                    <nav class="menu" id="menu">
-                        <ul class="menu__lista">
-                            <li class="menu__item">
-                                <a class="menu__link" href="#sobre">Sobre</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#estudo">Estudo</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#carreira">Carreira</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#dicas">Dicas</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#contato">Contato</a>
-                            </li>
-    
-    
-                            <li class="menu__item">
-                                <a class="menu__link curriculo" href="Eugenio Bandeira.pdf" download="Eugenio Bandeira.pdf" type="application/pdf">Currículo
-                                </a>
-                            </li>
-    
-                        </ul>
-                    </nav>
-            </header>
-    
-    
+                </ul>
+            </nav>
+    </header>
+
             <section id="banner" class="banner">
                 <div class="banner__conteudo">
                     <h1 class="banner__titulo">Olá, meu nome é Eugênio</h1>
                     <p class="banner__descricao">Aqui vou apresentar projetos de desenvolvimento web, utilizando HTML5, CSS3, JavaScript, React e Angular.</p>
-                    <a class="banner__botao" href="#" target="_blank" rel="internal">Projetos Finalizados</a>
+                    <a class="banner__botao" href="#">Projetos Finalizados</a>
                 </div>
             </section>
     
-            <main>
-    
+            <main class="main">
+
             <section id="sobre" class="sobre">
                 <h2 class="sobre__titulo">Sobre</h2>
                 <p class="sobre__descricao">Este sou eu...</p>
@@ -109,8 +103,8 @@
                         Eu não era o aluno de maior nota da turma, mas sempre me esforcei. &#x1F605 &#x1F605 &#x1F605 <br>
                         Então em 2015 (onde tudo começou a mudar), eu passei no processo seletivo do <abbr title="Serviço Nacional de Aprendizagem Industrial">SENAI</abbr>, iniciei o curso de Mecânica de Usinagem - aprendizagem industrial - e dois meses depois, eu já estava trabalhando (aprendiz) em uma empresa muuuuito grande.
                         <div class="estudo__box--senai">
-                                <img class="estudo__box--senai imagem" src="img/senai/senai-g.png" alt="SENAI Jandira">
-                                <figcaption class="estudo__box--senai-legenda">SENAI Jandira</figcaption>
+                            <img class="estudo__box--senai imagem" src="img/senai/senai-g.png" alt="SENAI Jandira">
+                            <figcaption class="estudo__box--senai-legenda">SENAI Jandira</figcaption>
                         </div>
                     </p>
                     <p class="estudo__nota"><strong>Obs.:</strong> eu tinha completado 15 anos um mês antes de começar a trabalhar. Eu não sabia fazer muita coisa, não conhecia o <q>negócio</q> da empresa. Mas tive o período de adaptação e depois fui me desenvolvendo e aprendendo muito com a ajuda da equipe.
@@ -439,11 +433,11 @@
             </section>
     
             <section id="contato" class="contato">
-                <div class="title">
-                    <h2 class="titleText">Contato</h2>
+                <div class="titulo">
+                    <h2 class="contato__titulo">Contato</h2>
                     <p class="contato__descricao">Entre em contato comigo</p>
                 </div>
-                <div class="contactForm">
+                <div class="contato__formulario">
                     <form class="formulario" action="form.php" method="post" id="formulario-php">
                         <h3>Enviar Mensagem</h3>
                         <div class="inputBox">
@@ -470,34 +464,35 @@
                             <input type="submit" value="Enviar">
                         </div>
                     </form>
-            </div>
+                </div>
             </section>
-    
-    </main>
-    <footer>
-            <ul>
-                <li>
-                    <a href="https://github.com/eugeniobandeira"> 
-                        <img class="svg" src="img/footer/github.svg" alt="">
+
+        </main>
+
+    <footer class="rodape">
+            <ul class="rodape__lista">
+                <li class="rodape__lista--item">
+                    <a class="rodape__lista--link" href="https://github.com/eugeniobandeira"> 
+                        <img class="rodape__imagem" src="img/footer/github.svg" alt="">
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/eugeniosb/"> 
-                        <img class="svg" src="img/footer/linkedin.svg" alt="logo LinkedIn">
+                <li class="rodape__lista--item">
+                    <a class="rodape__lista--link" href="https://www.linkedin.com/in/eugeniosb/"> 
+                        <img class="rodape__imagem" src="img/footer/linkedin.svg" alt="logo LinkedIn">
                     </a>
                 </li>
-                <li>
-                    <a href="https://linkwhats.app/286b45">
-                        <img class="svg" src="img/footer/whatsapp.svg" alt="logo WhatsApp">
+                <li class="rodape__lista--item">
+                    <a class="rodape__lista--link" href="https://linkwhats.app/286b45">
+                        <img class="rodape__imagem" src="img/footer/whatsapp.svg" alt="logo WhatsApp">
                     </a>
                 </li>
             </ul>
-            <p>Site Desenvolvido por <a href="">Eugênio Bandeira</a></p>
+            <p class="rodape__desenvolvedor">Site Desenvolvido por Eugênio Bandeira</p>
         </footer>
 
 
 
-    <script type="text/javascript">
+    <script>
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             header.classList.toggle('sticky', window.scrollY > 0);

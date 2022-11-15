@@ -27,6 +27,7 @@
     height: 250px;
     background-color: #fff;
     margin: 30px;
+    /* margin-bottom: 50px; */
     padding: 20px 15px;
     display: flex;
     flex-direction: column;

@@ -44,6 +44,9 @@
 .dicas__lista--plataformas {
     padding-left: 48px;
 }
+.dicas__plataformas--item {
+    padding-bottom: 8px;
+}
 .dicas__lista--plataformas .link__externo:after {
     content: ' 🔗';
 }
