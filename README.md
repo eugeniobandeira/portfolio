@@ -6,3 +6,7 @@
 * Este projeto tem o intuito de praticar os conhecimentos de desenvolvimento web #descrição-do-Projeto
 * [Em andamento] (#status-do-Projeto)
 * [HTML5, CSS3 e JavaScript] (#tecnologias-utilizadas)
+
+
+
+
