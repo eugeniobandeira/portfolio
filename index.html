@@ -470,50 +470,29 @@
         </main>
 
     <footer class="rodape">
-            <ul class="rodape__lista">
-                <li class="rodape__lista--item">
-                    <a class="rodape__lista--link" href="https://github.com/eugeniobandeira"> 
-                        <img class="rodape__imagem" src="img/footer/github.svg" alt="">
-                    </a>
-                </li>
-                <li class="rodape__lista--item">
-                    <a class="rodape__lista--link" href="https://www.linkedin.com/in/eugeniosb/"> 
-                        <img class="rodape__imagem" src="img/footer/linkedin.svg" alt="logo LinkedIn">
-                    </a>
-                </li>
-                <li class="rodape__lista--item">
-                    <a class="rodape__lista--link" href="https://linkwhats.app/286b45">
-                        <img class="rodape__imagem" src="img/footer/whatsapp.svg" alt="logo WhatsApp">
-                    </a>
-                </li>
-            </ul>
-            <p class="rodape__desenvolvedor">Site Desenvolvido por Eugênio Bandeira</p>
-        </footer>
+        <ul class="rodape__lista">
+            <li class="rodape__lista--item">
+                <a class="rodape__lista--link" href="https://github.com/eugeniobandeira"> 
+                    <img class="rodape__imagem" src="img/footer/github.svg" alt="">
+                </a>
+            </li>
+            <li class="rodape__lista--item">
+                <a class="rodape__lista--link" href="https://www.linkedin.com/in/eugeniosb/"> 
+                    <img class="rodape__imagem" src="img/footer/linkedin.svg" alt="logo LinkedIn">
+                </a>
+            </li>
+            <li class="rodape__lista--item">
+                <a class="rodape__lista--link" href="https://linkwhats.app/286b45">
+                    <img class="rodape__imagem" src="img/footer/whatsapp.svg" alt="logo WhatsApp">
+                </a>
+            </li>
+        </ul>
+        <p class="rodape__desenvolvedor">Site Desenvolvido por Eugênio Bandeira</p>
+    </footer>
 
 
-
-    <script>
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
-            header.classList.toggle('sticky', window.scrollY > 0);
-        });
-
-        function toggleMenu() {
-            const menuToggle = document.querySelector('.menuToggle');
-            const menu__lista = document.querySelector('.menu__lista');
-            menuToggle.classList.toggle('active');
-            menu__lista.classList.toggle('active');
-        }
-
-        document.querySelector('#items').addEventListener('wheel', event => {
-            if (event.deltaY > 0) {
-                event.target.scrollBy(310,0)
-            } else {
-                event.target.scrollBy(-310,0)
-            }
-        })
-        
-    </script>
 
 </body>
+<script src="./index.js"></script>
+
 </html>
