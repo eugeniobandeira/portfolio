@@ -11,7 +11,8 @@ body {
 }
 
 .cabecalho {
-    background-color: gray;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(20,33,61,1) 98%);
     height: 100px;
     text-align: center;
 }
@@ -22,7 +23,9 @@ body {
 .cabecalho__logo--destaque {
     color: #ff0157;
 }
-
+.cabecalho p {
+    color: #fff;  
+}
 h2 {
     text-align: center;
     padding: 20px;
@@ -41,4 +44,50 @@ h2 {
 iframe {
     width: 300px;
     height: 300px;
+}
+
+
+.rodape {
+    
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(20,33,61,1) 98%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rodape .rodape__lista {
+    color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding: 20px 0;
+}
+.rodape .rodape__lista--link {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.rodape .rodape__lista--link:hover {
+    color: #ff0157;
+    text-decoration: underline;
+}
+.rodape .rodape__lista--item {
+    padding: 10px 0;
+    width: 40px;
+    height: 40px;
+}
+
+.rodape .rodape__lista--item .rodape__lista--link .rodape__imagem:hover {
+    opacity: .8;
+}
+.rodape .rodape__imagem {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.rodape__desenvolvedor {
+    padding-bottom: 10px;
 }
