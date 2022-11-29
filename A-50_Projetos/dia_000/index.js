@@ -1,4 +1,16 @@
+function formatValue(value) {
+    value = Math.ceil(value * 100) / 100
+    value = value.toFixed(2)
+    return 'R$ ' + value
+}
 
+function pessoasRateio(value) {
+    if (value == 1) {
+        return value + ' pessoa'
+    } else {
+        return value + ' pessoas'
+    }      
+}
 function update() {
     let bill  = Number(document.getElementById('yourBill').value)
     let tipPercent = document.getElementById('tipInput').value
@@ -9,9 +21,10 @@ function update() {
     let billEach = billTotal / split
     
     document.getElementById('tipPercent').innerHTML = tipPercent + '%'
-    document.getElementById('tipValue').innerHTML = 'R$ ' + tipValue.toFixed(2)
-    document.getElementById('totalWithTip').innerHTML = 'R$ ' + billTotal.toFixed(2)
-    document.getElementById('splitValue').innerHTML = split
-    document.getElementById('billEach').innerHTML = Number(billTotal / split).toFixed(2)
+    document.getElementById('tipValue').innerHTML = formatValue(tipValue)
+    document.getElementById('totalWithTip').innerHTML = formatValue(billTotal)
+    document.getElementById('splitValue').innerHTML = pessoasRateio(split)
+    document.getElementById('billEach').innerHTML = formatValue(billTotal / split)
 
 }
+
