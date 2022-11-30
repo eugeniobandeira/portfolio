@@ -1,36 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess the number</title>
+    <title>Adivinhe o número</title>
   </head>
   <body onload="init()">
+    <header>
+      <h1>Você é bom em jogo de adivinhação?</h1>
+      <h3>Teste sua habilidade</h3>
+    </header>
     <main>
       <div id="welcomeScreen">
-        <h2>Guess the Number <br />1 - 100</h2>
+        <h2>Advinhe o Número <br />1 - 100</h2>
       </div>
 
       <div id="gameArea">
         <section>
-          <h3 id="textOutput">Your Guess:</h3>
+          <h3 id="textOutput">Palpite:</h3>
           <input type="number" id="inputBox" min="1" max="100" onchange="compareNumbers()"/>
         </section>
         <section class="stats">
           <div class="info">
-            <p>Number of attempts:</p>
+            <p>Nº Tentativas:</p>
             <span id="attempts">0</span>
           </div>
           <div class="info">
-            <p>Your guesses:</p>
+            <p>Histórico:</p>
             <span id="guesses">0</span>
           </div>
         </section>
-        <button id="newGameButton" onclick="newGame()">NEW GAME</button>
+        <button type="button" id="newGameButton" onclick="newGame()">Jogar de Novo</button>
       </div>
     </main>
+    <footer class="rodape">
+      <ul class="rodape__lista">
+          <li class="rodape__lista--item">
+              <a class="rodape__lista--link" href="https://github.com/eugeniobandeira"> 
+                  <img class="rodape__imagem" src="footer/github.svg" alt="logo GitHub">
+              </a>
+          </li>
+          <li class="rodape__lista--item">
+              <a class="rodape__lista--link" href="https://www.linkedin.com/in/eugeniosb/"> 
+                  <img class="rodape__imagem" src="footer/linkedin.svg" alt="logo LinkedIn">
+              </a>
+          </li>
+          <li class="rodape__lista--item">
+              <a class="rodape__lista--link" href="https://linkwhats.app/286b45">
+                  <img class="rodape__imagem" src="footer/whatsapp.svg" alt="logo WhatsApp">
+              </a>
+          </li>
+      </ul>
+      <p class="rodape__desenvolvedor">Site Desenvolvido por Eugênio Bandeira</p>
+  </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
