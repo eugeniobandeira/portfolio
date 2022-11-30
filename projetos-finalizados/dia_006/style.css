@@ -8,7 +8,10 @@
     --gradient-2: #2a3352;
     --grandient-matrix: linear-gradient(to right, #143C19, #000201, #000201);
   }
-  
+  html, body {
+    overflow: hidden;
+  }
+
   html {
     font-size: 12px;
     font-weight: 300;
@@ -209,9 +212,12 @@
     }
     main {
       padding: 2rem;
-      margin: 0 15px ;
+      margin: 20px 15px;
     }
     input {
       width: 20rem;
+    }
+    header h1 {
+      font-size: 2rem;
     }
   }
