@@ -14,13 +14,15 @@
     </header>
     <main>
       <div id="welcomeScreen">
-        <h2>Advinhe o Número <br />1 - 100</h2>
+        <h2>Adivinhe o Número <br />1 - 100</h2>
       </div>
 
       <div id="gameArea">
         <section>
-          <h3 id="textOutput">Palpite:</h3>
-          <input type="number" id="inputBox" min="1" max="100" onchange="compareNumbers()"/>
+          <h3 id="textOutput">Palpite:</h3> <br>
+          <span id="span__corelacao"></span>
+          <input type="number" id="inputBox" min="1" max="100" onchange="compareNumbers()" oninput="ValidaValorInput()"/> <br>
+          <span id="span"></span>
         </section>
         <section class="stats">
           <div class="info">
@@ -53,7 +55,7 @@
               </a>
           </li>
       </ul>
-      <p class="rodape__desenvolvedor">Site Desenvolvido por Eugênio Bandeira</p>
+      <p class="rodape__desenvolvedor">Desenvolvido por Eugênio Bandeira</p>
   </footer>
 
     <script src="index.js"></script>

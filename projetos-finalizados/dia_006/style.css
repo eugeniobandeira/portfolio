@@ -9,7 +9,7 @@
     --grandient-matrix: linear-gradient(to right, #143C19, #000201, #000201);
   }
   html, body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   html {
@@ -126,6 +126,17 @@
     border-radius: 0;
   }
 
+#span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: red;
+  padding: 5px 0;
+}
+
+#span__corelacao {
+  font-size: 1.5rem;
+  color: inherit;
+}
 
   header {
    /*  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(20,33,61,1) 98%); */
@@ -218,6 +229,6 @@
       width: 20rem;
     }
     header h1 {
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
   }
