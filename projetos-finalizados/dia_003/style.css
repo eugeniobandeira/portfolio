@@ -123,4 +123,5 @@ nav ul li i {
 .content p {
     color: #333;
     line-height: 1.5;
+    text-align: justify;
 }
