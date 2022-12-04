@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2? family= Indie+Flor & family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800; 0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --cor-destaque: yellowgreen;
 }
 
 * {
-    font-family: 'Popins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background: url('https://images.unsplash.com/photo-1547573854-74d2a71d0826?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     background-size: cover;
 }
 .banner .content {
@@ -40,7 +40,7 @@ p {
     color: #fff;
 }
 .banner .content p {
-    font-size: 1em;
+    font-size: 1.3em;
     color: #fff;
 }
 .btn {
@@ -108,7 +108,7 @@ header .navigation li a:hover {
     color: var(--cor-destaque);
 }
 section {
-    padding: 100px;
+    padding: 20px;
 }
 .row {
    position: relative; 
@@ -124,6 +124,7 @@ section {
     color: #111;
     font-size: 2em;
     font-weight: 300;
+    text-align: center;
 }
 .titleText span {
     color: var(--cor-destaque);
@@ -149,6 +150,14 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.col150 .imgBx {
+    display: grid;
+    place-items: center;
+}
+.col150 .imgBx img {
+    max-width: 100%;
+    margin: 30px;
 }
 .menu .content {
     display: flex;
@@ -317,4 +326,45 @@ section {
     font-weight: 500;
     border: none;
     cursor: pointer;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    height: 50px;
+}
+
+@media screen and (max-width: 850px) {
+    header .navigation {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 860px) {
+    header .navigation {
+        display: flex;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 700px) {
+    #about .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #about .row .col150 .imgBx img{
+        height: 300px;
+        width: 300px;
+        padding-top: 15px;
+    }
+    .banner .content h2 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    section {
+        padding: 50px 100px 0 100px;
+    }
+    
 }

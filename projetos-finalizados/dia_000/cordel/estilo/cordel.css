@@ -83,11 +83,11 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 #img01 {
-    background-image: url('./imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-position: right center;
 }
 #img02 {
-    background-image: url('./imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
     background-position: right center;
 }
 
@@ -109,4 +109,10 @@ footer > p > a {
 }
 footer > p > a:hover {
     text-decoration: underline;
+}
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+    p {
+        font-size: 1.5rem;
+    }
 }
