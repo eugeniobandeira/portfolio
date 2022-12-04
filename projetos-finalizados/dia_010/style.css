@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --left-bg-color: rgba(87,84,236, 0.7);
+    --right-bg-color: rgba(43, 43,43, 0.8);
+    --left-btn-hover-color: rgba(87,84,236, 1);
+    --right-btn-hover-color: rgba(28, 122, 28, 1);
+    --hover-width: 70%;
+    --other-width: 30%;
+    --speed: 1000ms;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    overflow-x: hidden;
+}
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid .2rem;
+    width: 15rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: bold;
+    text-transform: uppercase;
+}
+.split.left .btn:hover {
+    background-color: var(--left-btn-hover-color);
+    border-color: var(--left-btn-hover-color);
+}
+.split.right .btn:hover {
+    background-color: var(--right-btn-hover-color);
+    border-color: var(--right-btn-hover-color);
+}
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.split.left {
+    left: 0;
+    background: url('https://img.ibxk.com.br/2020/09/16/16162242991561.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.split.left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg-color);
+}
+.split.right {
+    right: 0;
+    background: url('https://cdesite.com/wp-content/uploads/2020/07/Le-prix-des-Xbox-Series-X-ne-sera-pas-d%C3%A9voil%C3%A9-lors-du-showcase-du-23-juillet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.split.right, 
+.split.left, 
+.split.right::before, 
+.split.left::before {
+    transition: all var(--speed) ease-in-out;
+}
+.split.right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg-color);
+}
+.container.hover-left .left {
+    width: var(--hover-width);
+}
+.container.hover-left .right {
+    width: var(--other-width);
+}
+.container.hover-right .right {
+    width: var(--hover-width);
+}
+.container.hover-right .left {
+    width: var(--other-width);
+}
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+        top: 30%;
+    }
+    .btn {
+        padding: 1.2rem;
+        width: 12rem;
+    }
+    
+}
+
