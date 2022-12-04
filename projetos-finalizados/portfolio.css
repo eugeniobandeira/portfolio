@@ -12,10 +12,11 @@ body {
 
 main .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 30px 100px;
+   /*  padding: 30px 100px; */
     /* margin: 30px 100px; */
+    
 }
 main .container .conteudo {
     margin: 20px;

@@ -3,16 +3,17 @@ html {
     font-size: 10px;
     color: #4e4d4d;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
   body {
     margin: 0;
+    margin-top: 15px;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
   }
   main {
     min-width: 280px;
