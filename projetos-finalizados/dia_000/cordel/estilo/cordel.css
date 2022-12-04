@@ -1,0 +1,112 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'Passion One';
+    src :  formato url ( '../fontes/PassionOne-Bold.otf') ( 'opentype' );
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300 & display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Indie Flower', cursive;
+    --fonte3: 'Passion One', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--fonte3);
+    font-size: 10vh;
+}
+
+header > p {
+    color: white;
+    padding-bottom: 50px;
+    font-family: var(--fonte1);
+    padding-top: 20px;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    line-height: 2em;
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
+}
+#img01 {
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+}
+#img02 {
+    background-image: url('./imagens/background002.jpg');
+    background-position: right center;
+}
+
+section.normal {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--fonte1);
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
