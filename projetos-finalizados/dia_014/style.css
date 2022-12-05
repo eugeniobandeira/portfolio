@@ -43,3 +43,15 @@ body {
     color: #555;
     font-size: 14px;
 }
+#span {
+    display: none;
+    color: red;
+}
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+    #span {
+        display: block;
+    }
+}
