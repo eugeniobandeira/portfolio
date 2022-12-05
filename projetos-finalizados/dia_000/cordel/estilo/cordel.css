@@ -115,4 +115,7 @@ footer > p > a:hover {
     p {
         font-size: 1.5rem;
     }
+    section {
+        line-height: 2;
+    }
 }
