@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+:root {
+    --left-bg-color: rgba(87,84,236, 0.7);
+    --right-bg-color: rgba(43, 43,43, 0.8);
+    --left-btn-hover-color: rgba(87,84,236, 1);
+    --right-btn-hover-color: rgba(28, 122, 28, 1);
+    --hover-width: 70%;
+    --other-width: 30%;
+    --speed: 1000ms;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+   
+    padding: 20px 40px;
+    border-radius: 5px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+.form-control input:focus, 
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: black;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: #6ce461;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+}
+.btn:focus {
+    outline: 0;
+}
+.btn:hover {
+    opacity: .8;
+}
+.text {
+    margin-top: 30px;
+}
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+    color: black;
+    transform: translateY(-30px);
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 20px;
+    }
+    
+}
