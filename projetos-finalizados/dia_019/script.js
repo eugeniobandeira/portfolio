@@ -32,7 +32,7 @@ function updateBigCup() {
         percentage.style.height = 0
     } else {
         percentage.style.visibility = 'visible'
-        percentage.style.height = `${fullCups / totalCups * 220}px`
+        percentage.style.height = `${fullCups / totalCups * 330}px`
         percentage.innerText = `${fullCups / totalCups * 100}%`
     }
   
