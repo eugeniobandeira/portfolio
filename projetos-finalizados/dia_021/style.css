@@ -60,11 +60,14 @@ body::before {
     background-color: transparent;
     padding: 20px;
     font-size: 30px;
-    border: 2px solid #fff;
+    border: none;
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
     cursor: pointer;
+}
+.arrow:hover {
+    font-size: 40px;
 }
 .arrow:focus {
     outline: none;
