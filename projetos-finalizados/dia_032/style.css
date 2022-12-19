@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
     box-sizing: border-box;
@@ -11,10 +11,44 @@ body, html {
 }
 body {
     background-color: #f5f5f5;
-    font-family: "Heebo", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+small {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fa-heart {
+    color: red;
+}
+
+.loveMe {
+    height: 440px;
+    width: 300px;
+    background: url('https://images.unsplash.com/photo-1671453683999-a8d10e3a2ef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 
+    0 10px 10px rgba(0, 0, 0, 0.26);
+}
+
+.loveMe .fa-heart {
+    position: absolute;
+    animation: grow .6s linear;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+    to {
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
 }
